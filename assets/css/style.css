@@ -84,10 +84,15 @@ nav {
     font-size: 2rem;
     padding: 1rem;
 }
-/* Add margin at the top to prevent content from being covered by the header */
+
+/*Making google translate button look better*/
 #google_translate_element {
     margin-top: 131px;
-    padding-top: 0.5rem;
+    padding: 0.5rem 1rem 0.5rem 0;
+    position: relative;
+    /* Enable flex properties to align contents*/
+    display: flex;
+    justify-content: flex-end;
 }
 
 /*Main content*/
@@ -116,7 +121,7 @@ footer {
 
 
 /*Media query tablets and larger (768px and up)*/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
 
     /*Header*/
     nav {
@@ -146,12 +151,32 @@ footer {
         flex-wrap: wrap;
     }
 
+    /*Making google translate button look better*/
+    #google_translate_element {
+        margin-top: 233px;
+        padding-top: 0.5rem;
+        position: relative;
+        /* Enable flex properties to align contents*/
+        display: flex;
+        justify-content: flex-end;
+    }
+
 }
 
 /*Media query laptops and desktops (992px and up)*/
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+
+    /*Making google translate button look better*/
+    #google_translate_element {
+        margin-top: 83px;
+        padding-top: 0.5rem;
+        position: relative;
+        /* Enable flex properties to align contents*/
+        display: flex;
+        justify-content: flex-end;
     }
 
     /*gallery*/
@@ -163,6 +188,17 @@ footer {
 
 /*Media query for screens larger than 1200px*/
 @media screen and (min-width: 1200px) {
+    
+    /*Making google translate button look better*/
+    #google_translate_element {
+        margin-top: 83px;
+        padding-top: 0.5rem;
+        position: relative;
+        /* Enable flex properties to align contents*/
+        display: flex;
+        justify-content: flex-end;
+    }
+    
     #benefits {
         display: flex;
         flex-direction: row;
