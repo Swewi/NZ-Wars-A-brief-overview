@@ -64,7 +64,7 @@ nav {
     position: absolute;
     background-color: #bab49e;
     width: 100%;
-    padding: 0 1rem;
+    padding: 1rem;
     box-shadow: 0 2px 2px #6c4c74;
     left: 0;
     display: none;
@@ -112,7 +112,7 @@ footer {
     text-align: center;
     padding: 20px 0;
     display: flex;
-    font: 160%;
+    font: 100%;
     padding: 5%;
     background-color: #9c959b;
     color: #4b4533;
@@ -171,18 +171,13 @@ footer {
 
     /*Making google translate button look better*/
     #google_translate_element {
-        margin-top: 83px;
+        margin-top: 158px;
         padding-top: 0.5rem;
         position: relative;
         /* Enable flex properties to align contents*/
         display: flex;
         justify-content: flex-end;
     }
-
-    /*gallery*/
-    #photos {
-        column-count: 4;
-        column-gap: 0;
 
 }
 
@@ -199,29 +194,4 @@ footer {
         justify-content: flex-end;
     }
     
-    #benefits {
-        display: flex;
-        flex-direction: row;
-    }
-
-    #benefits>div {
-        flex: 1;
-    }
-
-    #benefits-image {
-        order: 0
-    }
-
-    #benefits-mental {
-        order: 1
-    }
-
-    #benefits-mental>div {
-        align-self: flex-start;
-    }
-
-    #benefits-physical>div {
-        align-self: flex-end;
-    }
-}
 }
