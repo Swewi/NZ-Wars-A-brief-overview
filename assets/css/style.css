@@ -20,8 +20,7 @@ body {
 
 h1,
 h2,
-h3,
-h5 {
+h3 {
     font-family: 'Inter', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -85,21 +84,35 @@ nav {
     font-size: 2rem;
     padding: 1rem;
 }
+/* Add margin at the top to prevent content from being covered by the header */
+#google_translate_element {
+    margin-top: 131px;
+    padding-top: 0.5rem;
+}
+
+/*Main content*/
+main {
+    /* Enlarge main element to push footer down*/
+    flex: 1 0 auto;
+    /* Adding a little padding between translate and main body */
+    padding-top: .5rem;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
+    color: #3a3a3a;
+}
 
 /*Footer*/
-#creator {
+footer {
     text-align: center;
     padding: 20px 0;
     display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-}
-
-#social-networks i {
     font: 160%;
     padding: 5%;
-    color: #3a3a3a;
+    background-color: #9c959b;
+    color: #4b4533;
 }
+
 
 
 /*Media query tablets and larger (768px and up)*/

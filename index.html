@@ -19,6 +19,7 @@
 </head>
 
 <body>
+    
     <!--Header-->
     <header>
         <a href="index.html">
@@ -57,16 +58,33 @@
         </nav>
     </header>
 
+    <!--Adding a google translate button to increase accesabiltiy-->
+    <div id="google_translate_element"></div>
+    
     <!--Main Content-->
+    <main>
+        content
+    </main>
 
 
     <!-- Footer -->
-    <footer class="creator">
+    <footer>
         <h5>Made by Kiree</h5>
     </footer>
 
     <!--Font Awesome Kit-->
     <script src="https://kit.fontawesome.com/1f32015eb0.js" crossorigin="anonymous"></script>
+
+    <!--Google Translate options-->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+        }
+        </script>
+        
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    
+
 </body>
 
 </html>
