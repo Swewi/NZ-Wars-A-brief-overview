@@ -20,21 +20,22 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h5 {
     font-family: 'Inter', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #252525;
+    color: #4b4533;
 }
 
 /*Header*/
 header {
-    background-color: #ffffff;
+    background-color: #bab49e;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #6c4c74;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -56,16 +57,16 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #6c4c74;
 }
 
 /*Navbar styles with dropdown toggle*/
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: #bab49e;
     width: 100%;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #6c4c74;
     left: 0;
     display: none;
     top: 100%;
@@ -83,6 +84,21 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
     padding: 1rem;
+}
+
+/*Footer*/
+#creator {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 
