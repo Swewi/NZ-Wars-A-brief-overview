@@ -149,8 +149,6 @@ main {
 }
 
 .causes h2 {
-    color: #fafafa;
-    background-color: rgba(0, 0, 0, 0.2);
     text-transform: capitalize;
     font-size: 150%;
     text-align: center;
@@ -159,8 +157,6 @@ main {
 }
 
 .causes h3 {
-    color: #fafafa;
-    /*background-color: rgba(0,0,0, 0.2);*/
     text-transform: capitalize;
     font-size: 100%;
     text-align: center;
@@ -182,11 +178,41 @@ main {
     float: right;
     border-left: 1px solid #6c4c74;
     font-style: italic;
-    color: #fafafa;
 }
 
-#land p {
+.new-settlers {
+    width: 40%;
+    padding-left: .5rem;
+    margin: .5rem;
+    float: right;
+    border-left: 1px solid #6c4c74;
+    font-style: italic;
+}
+
+.treaty {
+    width: 40%;
+    padding-left: .5rem;
+    margin: .5rem;
+    float: right;
+    border-left: 1px solid #6c4c74;
+    font-style: italic;
+}
+
+.settler-integration {
+    width: 40%;
+    padding-left: .5rem;
+    margin: .5rem;
+    float: right;
+    border-left: 1px solid #6c4c74;
+    font-style: italic;
+}
+
+#land
+#new-settlers
+#treaty
+#settler-integration p {
     width: 60%;
+    padding-bottom: 10px;
 }
 
 .causes p {
@@ -199,16 +225,7 @@ hr {
     margin: 5px 0;
 }
 
-.causes {
-    background: url("../images/treatysigning.jpg") no-repeat center center/cover;
-    /* Handles responsivity without the need for a media query */
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .causes div {
-    color: #fafafa;
-    background-color: rgba(0, 0, 0, 0.6);
     padding: 15px;
     text-align: center;
     /* This will not wrap on screens of less than 400px wide.
