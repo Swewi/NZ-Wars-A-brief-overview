@@ -8,6 +8,11 @@
     box-sizing: border-box;
 }
 
+/*Adding padding for logo*/
+#logo {
+    padding-top: 0.5rem;
+}
+
 /*General Style*/
 body {
     min-height: 100vh;
@@ -142,12 +147,23 @@ main {
     display: flex;
     flex-direction: column;
 }
-    
+
 .causes h2 {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-transform: capitalize;
     font-size: 150%;
     text-align: center;
     margin-bottom: 20px;
     padding: 1rem 3rem;
+}
+
+.causes h3 {
+    color: #fafafa;
+    /*background-color: rgba(0,0,0, 0.2);*/
+    text-transform: capitalize;
+    font-size: 100%;
+    text-align: center;
 }
 
 #land
@@ -156,10 +172,26 @@ main {
 #settler-integration {
     line-height: 20px;
     margin-bottom: 20px;
+    display: flex;
+}
+
+.land-differences {
+    width: 40%;
+    padding-left: .5rem;
+    margin: .5rem;
+    float: right;
+    border-left: 1px solid #6c4c74;
+    font-style: italic;
+    color: #fafafa;
+}
+
+#land p {
+    width: 60%;
 }
 
 .causes p {
     padding: 0 20px;
+    text-align: left;
 }
 
 hr {
@@ -176,7 +208,7 @@ hr {
 
 .causes div {
     color: #fafafa;
-    background-color: rgba(0,0,0, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 15px;
     text-align: center;
     /* This will not wrap on screens of less than 400px wide.
@@ -231,7 +263,7 @@ footer {
 
     /*Making google translate button look better*/
     #google_translate_element {
-        padding-top: 7rem;
+        padding-top: 7.5rem;
         position: relative;
         /* Enable flex properties to align contents*/
         display: flex;
@@ -243,7 +275,7 @@ footer {
         width: 300px;
         right: 50px;
     }
-    
+
     /*Media query laptops and desktops (992px and up)*/
     @media screen and (min-width: 992px) {
         #menu a:hover {
@@ -252,7 +284,7 @@ footer {
 
         /*Making google translate button look better*/
         #google_translate_element {
-            margin-top: 4rem;
+            margin-top: 4.5rem;
             padding-top: 0.5rem;
             position: relative;
             /* Enable flex properties to align contents*/
@@ -267,7 +299,7 @@ footer {
 
         /*Making google translate button look better*/
         #google_translate_element {
-            padding-top: 0.5rem;
+            padding-top: 1rem;
             position: relative;
             /* Enable flex properties to align contents*/
             display: flex;
