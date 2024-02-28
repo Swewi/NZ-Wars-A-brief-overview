@@ -167,29 +167,8 @@ hr {
     margin: 5px 0;
 }
 
-#land {
-    background: url("../images/Marae.jpg") no-repeat center center/cover;
-    /* Handles responsivity without the need for a media query */
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#new-settlers {
-    background: url("../images/kororareka.jpg") no-repeat center center/cover;
-    /* Handles responsivity without the need for a media query */
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#treaty {
+.causes {
     background: url("../images/treatysigning.jpg") no-repeat center center/cover;
-    /* Handles responsivity without the need for a media query */
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.#settler-integration {
-    background: url("../images/dublin-city.webp") no-repeat center center/cover;
     /* Handles responsivity without the need for a media query */
     display: flex;
     flex-wrap: wrap;
@@ -263,10 +242,8 @@ footer {
     #cover-text {
         width: 300px;
         right: 50px;
-
     }
-
-
+    
     /*Media query laptops and desktops (992px and up)*/
     @media screen and (min-width: 992px) {
         #menu a:hover {
