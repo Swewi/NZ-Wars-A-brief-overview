@@ -47,7 +47,7 @@ header a {
 
 #menu {
     font-size: 100%;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     list-style-type: none;
 }
 
@@ -88,8 +88,7 @@ nav {
 /*Making google translate button look better*/
 #google_translate_element {
     background-color: #bab49e;
-    margin-top: 131px;
-    padding: 0.5rem 1rem 0.5rem 0;
+    padding: 9rem 1rem 0.5rem 0;
     position: relative;
     /* Enable flex properties to align contents*/
     display: flex;
@@ -103,102 +102,37 @@ main {
     flex: 1 0 auto;
     /* Adding a little padding between translate and main body */
     padding-top: .5rem;
-    /* Enable flex properties for child elements */
-    display: flex;
-    flex-direction: column;
-    color: #3a3a3a;
 }
 
-/* The actual timeline (the vertical ruler) */
-.timeline {
+/*Main Body*/
+main {
+    /*Make main element take up any surplus space*/
+    flex: 1 0 auto;
+}
+
+/* Hero section */
+#hero {
+    height: 60rem;
+    width: 100%;
+    background: url("../images/ruapekapekapa.jpg") no-repeat center center/cover;
     position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
-/* The actual timeline (the vertical ruler) */
-.timeline::after {
-    content: '';
+#cover-text {
+    /*rgba gives the cover text an opacity*/
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
     position: absolute;
-    width: 6px;
-    background-color: white;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -3px;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
 }
 
-/* Container around content */
-.container {
-    padding: 10px 40px;
-    position: relative;
-    background-color: inherit;
-    width: 50%;
-}
-
-/* The circles on the timeline */
-.container::after {
-    content: '';
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    right: -17px;
-    background-color: white;
-    border: 4px solid #FF9F55;
-    top: 15px;
-    border-radius: 50%;
-    z-index: 1;
-}
-
-/* Place the container to the left */
-.left {
-    left: 0;
-}
-
-/* Place the container to the right */
-.right {
-    left: 50%;
-}
-
-/* Add arrows to the left container (pointing right) */
-.left::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    right: 30px;
-    border: medium solid white;
-    border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent white;
-}
-
-/* Add arrows to the right container (pointing left) */
-.right::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    left: 30px;
-    border: medium solid white;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
-}
-
-/* Fix the circle for containers on the right side */
-.right::after {
-    left: -16px;
-}
-
-/* The actual content */
-.content {
-    padding: 20px 30px;
-    background-color: white;
-    position: relative;
-    border-radius: 6px;
+#cover-text>h2,
+#cover-text>h3 {
+    color: #ffffff;
 }
 
 /*Footer*/
@@ -207,46 +141,10 @@ footer {
     padding: 20px 0;
     display: flex;
     font: 100%;
-    padding: 5%;
+    padding: 1%;
     background-color: #9c959b;
     color: #4b4533;
 }
-
-
-
-/* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 600px) {
-
-    /* Place the timelime to the left */
-    .timeline::after {
-        left: 31px;
-    }
-
-    /* Full-width containers */
-    .container {
-        width: 100%;
-        padding-left: 70px;
-        padding-right: 25px;
-    }
-
-    /* Make sure that all arrows are pointing leftwards */
-    .container::before {
-        left: 60px;
-        border: medium solid white;
-        border-width: 10px 10px 10px 0;
-        border-color: transparent white transparent transparent;
-    }
-
-    /* Make sure all circles are at the same spot */
-    .left::after,
-    .right::after {
-        left: 15px;
-    }
-
-    /* Make all right containers behave like the left ones */
-    .right {
-        left: 0%;
-    }
 
     /*Media query tablets and larger (768px and up)*/
     @media screen and (min-width: 768px) {
@@ -273,16 +171,15 @@ footer {
         }
 
         #logo {
-            font-size: 280%;
-            line-height: 75px;
+            font-size: 115%;
+            line-height: 2rem;
             margin: 0 0 0.5rem;
-            flex-wrap: wrap;
+            word-wrap: normal;
         }
 
         /*Making google translate button look better*/
         #google_translate_element {
-            margin-top: 68px;
-            padding-top: 0.5rem;
+            padding-top: 6rem;
             position: relative;
             /* Enable flex properties to align contents*/
             display: flex;
@@ -299,7 +196,7 @@ footer {
 
         /*Making google translate button look better*/
         #google_translate_element {
-            margin-top: 68px;
+            margin-top: 4rem;
             padding-top: 0.5rem;
             position: relative;
             /* Enable flex properties to align contents*/
@@ -322,4 +219,4 @@ footer {
             justify-content: flex-end;
         }
     }
-    }
+    
