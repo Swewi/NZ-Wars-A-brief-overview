@@ -34,7 +34,7 @@ This page acts as a sort of timeline, with a very brief rundown of the individua
 
 ### Consequences Page
 
-At the time of writing this, this section is blank, it turns out I over stretched my expectations, however I woild have added sections here about land loss, identy loss, population decline, and the vote, economy.
+At the time of writing this, this section is blank, it turns out I over stretched my abilities, however I woild have added sections here about land loss, identy loss, population decline, and the vote, economy.
 
 ### External links and Resources Page
 
@@ -44,6 +44,7 @@ This page contains links to useful websites to extend knowledge base, and some u
 
 ### Colour Scheme
 
-I based my colour scheme around the location and time period of the Wars, I used iColorpalette to find colours that matched my needs.
+I based my colour scheme around the location and time period of the Wars, I used iColorpalette to find colours that matched my needs, while maintaining a suitable level of contrast for low vision readers.
 
-![Colour Palatte used through out website] (/assets/images/readme/colorpalatte.png)
+![Colour Palatte used through out website.](/assets/images/readme/colorpalette.png)
+
