@@ -48,3 +48,22 @@ I based my colour scheme around the location and time period of the Wars, I used
 
 ![Colour Palatte used through out website.](/assets/images/readme/colorpalette.png)
 
+### Font
+
+Google fonts has a huge range of fonts, for this project I choose two fonts with the 'Sans Serif' fall back.
+
+The font I choose for all the headers was 'Inter' it has a nice smooth look while being blocky enough to resize nicely aacross several header sizes:
+
+![Sample of Inter font.](/assets/images/readme/intersampleimage.png)
+
+The font I choose for all the text was 'Kavivanar', this font was an interesting choice, but it does work, it adds a nice periody,hand writen style to the text:
+
+![Sample of Kavivanar font.](/assets/images/readme/kavivanarsampleimage.png)
+
+To highlight the sections within the 'External links and resources Page' I used a number of 'favicons', doing my best to use relavent images, I also used the 'classic' burger icon for the mobile menu drop down.
+
+# Features
+
+### Navigation Bar
+
+I have made the navigation bar as responsive as possible, it is fully interactable at all sizes, in the smallest form the menu operates from a classic 'burger' icon, for screens 768px and larger the menu expands fully into a traditonal 'tab' style.  Each menu page connects with every otehr page.
