@@ -259,7 +259,7 @@ hr {
 }
 
 .campaigns div {
-    padding: 15px;
+    padding: 0 1rem;
     text-align: center;
     justify-content: center;
 }
@@ -295,6 +295,8 @@ hr {
 }
 
 .east-coast {
+    width: 90%;
+    margin: 0 5%;
     height: auto;
     border: 2px solid white;
 }
