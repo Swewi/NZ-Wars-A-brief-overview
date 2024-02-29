@@ -168,6 +168,7 @@ main {
 
 
 /*Causes Page*/
+
 .causes {
     width: 90%;
     margin: 20px auto;
@@ -227,6 +228,56 @@ hr {
     flex-grow: 1;
     /* Creates a grid of meetup time divs over the background image */
     border: 2px solid white;
+}
+
+/*Campaigns page*/
+
+.campaigns {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.campaigns h2 {
+    text-transform: capitalize;
+    font-size: 150%;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 1rem 3rem;
+}
+
+.campaigns h3 {
+    text-transform: capitalize;
+    font-size: 100%;
+    text-align: center;
+}
+
+.campaigns p {
+    padding: 0 20px;
+    text-align: left;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+.campaigns div {
+    padding: 15px;
+    text-align: center;
+    /* This will not wrap on screens of less than 400px wide.
+    Each div will expand to fill the available space on its row */
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px solid white;
+}
+
+.map {
+    height: 70vh;
+    width: 70vw;
+    background: url(../images/nzwarsmap.gif) no-repeat center center/cover;
+    padding-bottom: 20px;
 }
 
 /*Footer*/
@@ -308,6 +359,22 @@ footer {
         font-style: italic;
     }
 
+    /*Campaigns Page*/
+
+    #first-half #second-half {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #first-half>div #second-half>div {
+        width: 75%;
+    }
+
+    #second-half>div {
+        text-align: end;
+        align-self: flex-end;
+    }
 
     /*Media query laptops and desktops (992px and up)*/
     @media screen and (min-width: 992px) {
