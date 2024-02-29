@@ -352,11 +352,11 @@ hr {
 
 #youtube a {
     font-size: small;
-    padding: .5rem;
+    text-indent: 10px;
+    padding: .5rem 1rem;
     color: #4b4533;
     text-decoration: none;
     width: 80%;
-    justify-items: left;
 }
 
 #links h3 {
@@ -366,10 +366,58 @@ hr {
 
 #links li a {
     font-size: small;
-    padding: .5rem;
+    text-indent: 10px;
+    padding: .5rem 1rem;
     color: #4b4533;
     list-style-type: none;
     text-decoration: none;
+    width: 100%;
+}
+
+#docos h3 {
+    text-align: left;
+    padding: 1rem;
+}
+
+#docos p {
+    font-size: small;
+    padding: .5rem 1rem;
+    color: #4b4533;
+    width: 80%;
+}
+
+#books h3 {
+    text-align: left;
+    padding: 1rem;
+}
+
+#books li {
+    font-size: small;
+    text-indent: 10px;
+    padding: .5rem 1rem;
+    color: #4b4533;
+    list-style-type: square;
+    width: 80%; 
+}
+
+#films h3 {
+    text-align: left;
+    padding: 1rem;
+}
+
+#films li {
+    font-size: small;
+    text-indent: 10px;
+    padding: .5rem 1rem;
+    color: #4b4533;
+    list-style-type: none;
+    width: 80%; 
+}
+
+#films p {
+    font-size: small;
+    padding: .5rem 1rem;
+    color: #4b4533;
     width: 80%;
 }
 
