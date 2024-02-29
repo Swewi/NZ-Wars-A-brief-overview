@@ -149,7 +149,6 @@ main {
     justify-content: right;
     padding-top: 1rem;
     padding-right: 1rem;
-    padding-bottom: -1.5rem;
 }
 
 #beach {
@@ -157,15 +156,14 @@ main {
     justify-content: left;
     padding-bottom: 1rem;
     padding-left: 1rem;
-    padding-top: -2rem;
 }
 
 .statement-box {
-	padding: 0 5px;
-	border-radius: 8px;
+    padding: 0 5px;
+    border-radius: 8px;
     margin: 0 2%;
     color: #bab49e;
-	background-color: #6d4f75;
+    background-color: #6d4f75;
 }
 
 
@@ -288,6 +286,19 @@ footer {
         right: 50px;
     }
 
+    /*Landing page extra information*/
+    .statement-box {
+        font-size: large;
+    }
+
+    #sheep {
+        padding-right: 4rem;
+    }
+
+    #beach {
+        padding-left: 4rem;
+    }
+
     #psuedo-aside {
         width: 45%;
         padding-left: 1rem;
@@ -297,7 +308,7 @@ footer {
         font-style: italic;
     }
 
-    
+
     /*Media query laptops and desktops (992px and up)*/
     @media screen and (min-width: 992px) {
         #menu a:hover {
@@ -312,6 +323,19 @@ footer {
             /* Enable flex properties to align contents*/
             display: flex;
             justify-content: flex-end;
+        }
+
+        /*Landing page extra information*/
+        .statement-box {
+            font-size: x-large;
+        }
+
+        #sheep {
+            padding-right: 5rem;
+        }
+
+        #beach {
+            padding-left: 5rem;
         }
 
     }
