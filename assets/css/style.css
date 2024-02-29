@@ -301,6 +301,50 @@ hr {
     border: 2px solid white;
 }
 
+/*consequences section*/
+
+/*Not Completed at this time*/
+
+.consequences h2 {
+    text-transform: capitalize;
+    font-size: 150%;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 1rem 3rem;
+}
+
+.consequences h3 {
+    text-transform: capitalize;
+    font-size: 100%;
+    text-align: center;
+}
+
+.consequences p {
+    padding: 0 20px;
+    text-align: left;
+}
+
+/*external links page*/
+
+.external-links h2 {
+    text-transform: capitalize;
+    font-size: 150%;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 1rem 3rem;
+}
+
+.external-links h3 {
+    text-transform: capitalize;
+    font-size: 100%;
+    text-align: center;
+}
+
+.external-links p {
+    padding: 0 20px;
+    text-align: left;
+}
+
 /*Footer*/
 footer {
     text-align: center;
