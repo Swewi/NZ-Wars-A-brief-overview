@@ -345,6 +345,12 @@ hr {
     text-align: left;
 }
 
+#youtube {
+        font: 200%;
+        padding: 5%;
+        color: #3a3a3a;
+}
+
 /*Footer*/
 footer {
     text-align: center;
