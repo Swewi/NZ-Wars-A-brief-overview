@@ -67,3 +67,13 @@ To highlight the sections within the 'External links and resources Page' I used 
 ### Navigation Bar
 
 I have made the navigation bar as responsive as possible, it is fully interactable at all sizes, in the smallest form the menu operates from a classic 'burger' icon, for screens 768px and larger the menu expands fully into a traditonal 'tab' style.  Each menu page connects with every otehr page.
+
+### Resposive Design
+
+I have done my best to make this project as responive as possible, elements move when the screen resizes, I will admit the code is not pretty as I would like however, I have done the best I can.  There are several media querries to allow for multiple screen sizes.
+
+### Accessibility
+
+I have done my best to ensure accessibility across all the tabs, I have included a google translate button on all pages, unfortunately I copied and pasted this element and do not really understand how it works so it maybe a little janky.
+
+I have maintained a level of contrast between the text and background throughout so people with low-vision can read, with or without a screen reader.
