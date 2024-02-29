@@ -190,7 +190,10 @@ main {
     text-align: center;
 }
 
-#land #new-settlers #treaty #settler-integration {
+#land
+#new-settlers
+#treaty
+#settler-integration {
     line-height: 20px;
     margin-bottom: 20px;
     display: flex;
@@ -222,11 +225,8 @@ hr {
 .causes div {
     padding: 15px;
     text-align: center;
-    /* This will not wrap on screens of less than 400px wide.
-    Each div will expand to fill the available space on its row */
     flex-basis: 200px;
     flex-grow: 1;
-    /* Creates a grid of meetup time divs over the background image */
     border: 2px solid white;
 }
 
@@ -266,8 +266,6 @@ hr {
 .campaigns div {
     padding: 15px;
     text-align: center;
-    /* This will not wrap on screens of less than 400px wide.
-    Each div will expand to fill the available space on its row */
     flex-basis: 200px;
     flex-grow: 1;
     border: 2px solid white;
@@ -278,6 +276,9 @@ hr {
     width: 70vw;
     background: url(../images/nzwarsmap.gif) no-repeat center center/cover;
     padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*Footer*/
