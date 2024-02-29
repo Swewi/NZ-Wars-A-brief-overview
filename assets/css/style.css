@@ -140,6 +140,35 @@ main {
     text-transform: capitalize;
 }
 
+/*Landing page extra information*/
+
+/*formating both images in extra info section*/
+
+#sheep {
+    display: flex;
+    justify-content: right;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: -1.5rem;
+}
+
+#beach {
+    display: flex;
+    justify-content: left;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-top: -2rem;
+}
+
+.statement-box {
+	padding: 0 5px;
+	border-radius: 8px;
+    margin: 0 2%;
+    color: #bab49e;
+	background-color: #6d4f75;
+}
+
+
 /*Causes Page*/
 .causes {
     width: 90%;
@@ -168,6 +197,7 @@ main {
     display: flex;
 }
 
+/*Allows the information to adapt to screens while retaining some form*/
 #psuedo-aside-main {
     width: 100%;
     padding-left: .5rem;
