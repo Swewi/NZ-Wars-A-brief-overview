@@ -93,7 +93,7 @@ nav {
 /*Making google translate button look better*/
 #google_translate_element {
     background-color: #bab49e;
-    padding: 9rem 1rem 0.5rem 0;
+    padding: 10rem 1rem 0.5rem 0;
     position: relative;
     /* Enable flex properties to align contents*/
     display: flex;
@@ -296,7 +296,7 @@ hr {
 
 .east-coast {
     width: 90%;
-    margin: 0 5%;
+    margin: 0 2rem;
     height: auto;
     border: 2px solid white;
 }
