@@ -168,12 +168,11 @@ main {
     display: flex;
 }
 
-.land-differences .new-settlers .treaty .settler-integration p {
+#psuedo-aside-main {
     width: 100%;
     padding-left: .5rem;
     margin: .5rem;
     border-left: 1px solid #6c4c74;
-    font-style: italic;
 }
 
 #land #new-settlers #treaty #settler-integration p {
@@ -259,42 +258,16 @@ footer {
         right: 50px;
     }
 
-    .land-differences {
-        width: 40%;
-        padding-left: .5rem;
-        margin: .5rem;
-        float: right;
+    #psuedo-aside {
+        width: 45%;
+        padding-left: 1rem;
+        margin: 1rem;
+        float: left;
         border-left: 1px solid #6c4c74;
         font-style: italic;
     }
 
-    .new-settlers {
-        width: 40%;
-        padding-left: .5rem;
-        margin: .5rem;
-        float: right;
-        border-left: 1px solid #6c4c74;
-        font-style: italic;
-    }
-
-    .treaty {
-        width: 40%;
-        padding-left: .5rem;
-        margin: .5rem;
-        float: right;
-        border-left: 1px solid #6c4c74;
-        font-style: italic;
-    }
-
-    .settler-integration {
-        width: 40%;
-        padding-left: .5rem;
-        margin: .5rem;
-        float: right;
-        border-left: 1px solid #6c4c74;
-        font-style: italic;
-    }
-
+    
     /*Media query laptops and desktops (992px and up)*/
     @media screen and (min-width: 992px) {
         #menu a:hover {
