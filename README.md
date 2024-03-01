@@ -34,7 +34,9 @@ This page acts as a sort of timeline, with a very brief rundown of the individua
 
 ### Consequences Page
 
-At the time of writing this, this section is blank, it turns out I over stretched my abilities, however I woild have added sections here about land loss, identy loss, population decline, and the vote, economy.
+I have added some headers for the page, outling the structure this page would have had if I had time to complete it.
+
+It turns out I over stretched my abilities.
 
 ### External links and Resources Page
 
@@ -121,4 +123,30 @@ I have tried to ensure regular commits occured and that things have been comment
 
 #### Lighthouse output
 
-[desktop output from lighthouse](/assets/images/readme/)
+![desktop output from lighthouse](/assets/images/readme/lighthouseoutput.png)
+
+Outcome of testing, while the interface works well, there are some issues, I have no understanding of the google translate code, so I can't fix that one.  I have done my best to replace images with smaller versions, but I have been unable to re-run lighthouse to check new values.
+
+## Deployment
+
+This project was deployed through github, using the repository 'Swewi/Project-1-kiree-5p' this a public repository.
+
+# Credits
+
+### Media
+***
+* [Ruapekapeka Pa Gate](https://walkinnz.home.blog/) sourced from the history hits website.
+* My own photos.
+* [Various images](https://natlib.govt.nz/schools/topics/5d24041bfb002c625d9dc3f2) Historic images.
+* [Various images](https://www.alamy.com/stock-photo/new-zealand-wars.html?sortBy=relevant) Historic images.
+* [Various images](https://www.gettyimages.com.au/photos/maori-war) Historic images.
+* [NZ wars documentary](https://www.youtube.com/watch?v=oP-rFLSwMPk&list=PLjXjdTq37-vSip6Wv3kbMBvrIT9Xr2KFq) Prof. James Belich New Zealand Wars, I have got permission from Prof. Belich to use this media.
+
+### Code
+I used W3 Schools for help with syntax and making some parts of the website work.
+
+I referenced The Code Institute Walkthrough project - Love Running, and the Coffee Coders project as references for parts of code, as well as flicking through the HTML and CSS sections to get the correct syntax.
+
+## Acknowledgements
+
+I would like to acknowledge my partner for being incrediably understanding when I am working over weekends and late into the night.  I would also like to acknowledge my mentor Ronan for his help.
