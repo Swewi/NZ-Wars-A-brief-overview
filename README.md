@@ -100,3 +100,17 @@ This is a list of technologies used during the construction and testing of the s
 * [W3C HTML Markup Validator](https://validator.w3.org/) to check HTML code.
 * [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) to check CSS code.
 * Code Institute's Gitpod Template to generate the workspace for the project.
+
+# Testing
+
+### Accessibility
+
+I have run tests checking accessibility of the site using:
+***
+* Screen readers - the site was read, the pronunciation of non-english words was rough but it was listenable.
+* Colour blind check - the site looked good, was readable.
+* Vision Imparied - the use of alt-tags and aria-labels to throughout.
+
+### Code
+
+I have checked the code using W3C HTML validator
