@@ -77,3 +77,21 @@ I have done my best to make this project as responive as possible, elements move
 I have done my best to ensure accessibility across all the tabs, I have included a google translate button on all pages, unfortunately I copied and pasted this element and do not really understand how it works so it maybe a little janky.
 
 I have maintained a level of contrast between the text and background throughout so people with low-vision can read, with or without a screen reader.
+
+# Technologies
+
+This is a list of technologies used during the construction and testing of the site:
+***
+* HTML to accomplish the structure of the website.
+* CSS to style the website.
+* [Gitpod](https://gitpod.io/workspaces) IDE to develop the website.
+* [Github](https://github.com/Swewi) To host the source code and GitHub Pages to deploy and host the live site.
+* Git to provide version control (to commit and push code to the repository).
+* [FontAwesome](https://fontawesome.com/) Version: 6.5.1 Icons.
+* [Goggle Fonts](https://fonts.google.com/) For website fonts.
+* [Google Dev Tools](https://developer.chrome.com/docs/devtools/) For page inspection and checking website.
+* [CloudConvert](https://cloudconvert.com/avif-to-webp) For image conversion.
+* [Favicon](https://favicon.io/) To create favicon for the website.
+* [iColorpalette](https://icolorpalette.com/#google_vignette) To create the colour palette for the project.
+* [Am I Responsive](https://ui.dev/amiresponsive) To create mockup image for README.
+* Google Chrome's [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) to check accessibility.
