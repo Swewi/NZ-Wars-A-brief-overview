@@ -113,4 +113,12 @@ I have run tests checking accessibility of the site using:
 
 ### Code
 
-I have checked the code using W3C HTML validator
+I have checked the code using W3C HTML validator - The errors that exist are issues I can't control or known about and accepted.
+
+I have checked the code wsing W3C CSS validator - No errors occured.
+
+I have tried to ensure regular commits occured and that things have been commented correctly.
+
+#### Lighthouse output
+
+[desktop output from lighthouse](/assets/images/readme/)
