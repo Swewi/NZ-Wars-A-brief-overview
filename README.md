@@ -95,3 +95,8 @@ This is a list of technologies used during the construction and testing of the s
 * [iColorpalette](https://icolorpalette.com/#google_vignette) To create the colour palette for the project.
 * [Am I Responsive](https://ui.dev/amiresponsive) To create mockup image for README.
 * Google Chrome's [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) to check accessibility.
+* [Screen Reader for Chrome](https://chrome.google.com/webstore/detail/screen-reader-for-google/nddfhonnmhcldcbmhbdldfpkbfpgjoeh/related?hl=en) to access screen reader capabilities on website.
+* [Colorfilter](https://www.toptal.com/designers/colorfilter/) to check website for colour-blind accessibility.
+* [W3C HTML Markup Validator](https://validator.w3.org/) to check HTML code.
+* [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) to check CSS code.
+* Code Institute's Gitpod Template to generate the workspace for the project.
