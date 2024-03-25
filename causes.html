@@ -4,35 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Metatags for Search Engines-->
+    <!-- Metatags for Search Engines -->
     <meta name="description" content="The New Zealand Wars
     A website about The New Zealand Wars, their cause, campaigns, and consequences">
     <meta name="keywords" content="New Zealand Wars, New Zealand History, Maori history, New Zealand">
-    <!--Page Title-->
+    <!-- Page Title -->
     <title>The New Zealand Wars</title>
-    <!--Favicons-->
+    <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <!--css sheet-->
+    <!-- CSS sheet -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
-    <!--Header-->
+    <!-- Header -->
     <header>
         <a href="index.html">
             <h1 id="logo">
                 The New Zealand Wars
             </h1>
         </a>
+        <!-- Navigation Toggle -->
         <input type="checkbox" name="nav-toggle" id="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label">
             <i class="fa-solid fa-bars"></i>
         </label>
 
+        <!-- Navigation Menu -->
         <nav>
             <ul id="menu">
                 <li>
@@ -64,18 +66,20 @@
         </nav>
     </header>
 
-    <!--Adding a google translate button to increase accesabiltiy-->
+    <!-- Adding a Google Translate button to increase accessibility -->
     <div id="google_translate_element"></div>
 
-    <!--Main Content-->
+    <!-- Main Content -->
     <main>
-        <!--Causes Reason-->
+        <!-- Causes Reason -->
         <section class="causes" aria-label="Factors leading to The New Zealand Wars">
             <h2>Factors leading to The New Zealand Wars</h2>
             <br>
+            <!-- Land -->
             <div id="Land">
                 <h3>The Land</h3>
                 <hr>
+                <!-- Explanation of Land Dispute -->
                 <div class="psuedo-aside-main">
                     <p>
                         Before the arrival of European settlers, Māori possessed distinct patterns of land ownership
@@ -85,11 +89,13 @@
                         all else, protected.
                     </p>
                 </div>
+                <!-- Impact of European Perception of Land Ownership -->
                 <div class="psuedo-aside-main">
                     <p>
                         The arrival of Europeans changed all this, primarily because Māori and Pākehā (white settlers)
                         perceived the importance of the land very differently:
                     </p>
+                    <!-- List of Land Ownership Differences -->
                     <p>
                         - For Māori, the land was owned communally. Land could be gifted but not be traded
                         permanently
@@ -109,12 +115,14 @@
                         over 21 years old.
                     </p>
                 </div>
+                <!-- Image of Marae -->
                 <img src="assets/images/marae.webp" alt="A painting of a meeting at a Marae" style="width: 50%;">
-
             </div>
+            <!-- European Settlers -->
             <div id="new-settlers">
                 <h3>European Settlers</h3>
                 <hr>
+                <!-- Impact of First European Settlers -->
                 <div class="psuedo-aside-main">
                     <p> The First European settlers came from Australia and Britain in the 1790s. The first
                         'British community' was a sealing camp in Doubtful Sound established in 1792 (it survived for
@@ -122,6 +130,7 @@
                         years).
                     </p>
                 </div>
+                <!-- Description of Early European Settlements -->
                 <div class="psuedo-aside-main">
                     <p>
                         The early European settlers were primarily interested in the coastline, hunting for whales
@@ -153,9 +162,11 @@
                     </p>
                 </div>
             </div>
+            <!-- Treaty of Waitangi -->
             <div id="treaty">
                 <h3>The Treaty of Waitangi</h3>
                 <hr>
+                <!-- Explanation of Treaty of Waitangi -->
                 <div class="psuedo-aside-main">
                     <p>
                         The Treaty of Waitangi was signed on 6 February 1840, by Captain William Hobson (The first
@@ -172,18 +183,23 @@
                         and institutions at the expense of traditional Māori law and institutions.
                     </p>
                 </div>
+                <!-- Response of Some Chiefs -->
                 <div class="psuedo-aside-main">
                     <p>
                         Some significant chiefs chose not to sign,
                         especially Te Whero Whero of Waikato, who would later become the first Māori King in 1858.
                     </p>
                 </div>
+                <!-- Image of Treaty Signing -->
                 <img src="assets/images/treatysigning.jpg" alt="A painting of the Treaty of Wiatangi being signed"
                     style="width: 50%;">
             </div>
+
+            <!-- Integrating all parties into New Zealand -->
             <div id="settler-integration">
                 <h3>Integrating all parties into New Zealand</h3>
                 <hr>
+                <!-- Explanation of Integration -->
                 <div class="psuedo-aside-main">
                     <p>
                         New Zealand no longer belonged to Māori, with space for Pākehā. Instead, New Zealand was now a
@@ -193,6 +209,7 @@
                         Treaty was all about, and they said so.
                     </p>
                 </div>
+                <!-- Impact on Ngā Puhi -->
                 <div class="psuedo-aside-main">
                     <p>
                         At the same time Ngā Puhi (The tribe around Waitangi and Kororareka -
@@ -209,32 +226,33 @@
         </section>
     </main>
 
-
     <!-- Footer -->
     <footer>
         <h5>Made by Kiree</h5>
     </footer>
 
-    <!--Font Awesome Kit-->
+    <!-- Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/1f32015eb0.js" crossorigin="anonymous"></script>
 
     <!-- Include Google Translate Script -->
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
 
-<!-- Script to Initialize Google Translate -->
-<script type="text/javascript">
-    // Function to initialize Google Translate
-    function googleTranslateElementInit() {
-        // Options for Google Translate
-        var options = {
-            pageLanguage: 'en', // Set the default language of the page
-            layout: google.translate.TranslateElement.InlineLayout.SIMPLE // Set the layout style of the translate element
-        };
+    <!-- Script to Initialize Google Translate -->
+    <script type="text/javascript">
+        // Function to initialize Google Translate
+        function googleTranslateElementInit() {
+            // Options for Google Translate
+            var options = {
+                pageLanguage: 'en', // Set the default language of the page
+                layout: google.translate.TranslateElement.InlineLayout
+                    .SIMPLE // Set the layout style of the translate element
+            };
 
-        // Create a new Google Translate Element with specified options
-        new google.translate.TranslateElement(options, 'google_translate_element');
-    }
-</script>
+            // Create a new Google Translate Element with specified options
+            new google.translate.TranslateElement(options, 'google_translate_element');
+        }
+    </script>
 
 </body>
 

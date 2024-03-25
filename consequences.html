@@ -4,35 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Metatags for Search Engines-->
+    <!-- Metatags for Search Engines -->
     <meta name="description" content="The New Zealand Wars
     A website about The New Zealand Wars, their cause, campaigns, and consequences">
     <meta name="keywords" content="New Zealand Wars, New Zealand History, Maori history, New Zealand">
-    <!--Page Title-->
+    <!-- Page Title -->
     <title>The New Zealand Wars</title>
-    <!--Favicons-->
+    <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <!--css sheet-->
+    <!-- CSS sheet -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
-    <!--Header-->
+    <!-- Header -->
     <header>
         <a href="index.html">
             <h1 id="logo">
                 The New Zealand Wars
             </h1>
         </a>
+        <!-- Navigation Toggle -->
         <input type="checkbox" name="nav-toggle" id="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label">
             <i class="fa-solid fa-bars"></i>
         </label>
 
+        <!-- Navigation Menu -->
         <nav>
             <ul id="menu">
                 <li>
@@ -64,53 +66,54 @@
         </nav>
     </header>
 
-    <!--Adding a google translate button to increase accesabiltiy-->
+    <!-- Adding a google translate button to increase accessibility -->
     <div id="google_translate_element"></div>
 
-    <!--Main Content-->
+    <!-- Main Content -->
     <main>
+        <!-- Section for Consequences -->
         <section class="consequences" aria-label="Both long and short term consequences of The New Zealand Wars">
             <h2>Consequences</h2>
             <br>
+            <!-- Placeholder content -->
             <p>
                 I'm really sorry I didn't get to this bit done, I think I may have over stretched
             </p>
             <br>
+            <!-- List of Consequences -->
             <h3>Land Loss</h3>
-            <h3>Identy Loss</h3>
+            <h3>Identity Loss</h3>
             <h3>Population Decline</h3>
             <h3>Gaining the Vote</h3>
             <h3>The Economy</h3>
         </section>
     </main>
 
-
     <!-- Footer -->
     <footer>
         <h5>Made by Kiree</h5>
     </footer>
 
-    <!--Font Awesome Kit-->
+    <!-- Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/1f32015eb0.js" crossorigin="anonymous"></script>
 
     <!-- Include Google Translate Script -->
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-<!-- Script to Initialize Google Translate -->
-<script type="text/javascript">
-    // Function to initialize Google Translate
-    function googleTranslateElementInit() {
-        // Options for Google Translate
-        var options = {
-            pageLanguage: 'en', // Set the default language of the page
-            layout: google.translate.TranslateElement.InlineLayout.SIMPLE // Set the layout style of the translate element
-        };
+    <!-- Script to Initialize Google Translate -->
+    <script type="text/javascript">
+        // Function to initialize Google Translate
+        function googleTranslateElementInit() {
+            // Options for Google Translate
+            var options = {
+                pageLanguage: 'en', // Set the default language of the page
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE // Set the layout style of the translate element
+            };
 
-        // Create a new Google Translate Element with specified options
-        new google.translate.TranslateElement(options, 'google_translate_element');
-    }
-</script>
-
+            // Create a new Google Translate Element with specified options
+            new google.translate.TranslateElement(options, 'google_translate_element');
+        }
+    </script>
 
 </body>
 
