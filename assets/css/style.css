@@ -577,7 +577,7 @@ footer {
 
         /*Making google translate button look better*/
         #google_translate_element {
-            padding-top: 1rem;
+            padding-top: 1.5rem;
             position: relative;
             /* Enable flex properties to align contents*/
             display: flex;

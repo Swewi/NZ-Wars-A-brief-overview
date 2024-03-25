@@ -33,9 +33,18 @@ The page is very wordy, by it's nature history often is, I have tried to break i
 
 I kept order by placing boxes around elements to define them, and draw them together at the same time.
 
+![Screenshot of ipad-mini causes page](assets/images/readme/ipad-mini-causes.png)
+
+Simulation of iPad mini on causes page.
+
 ### Campaigns Page
 
 This page acts as a sort of timeline, with a very brief rundown of the individual campaigns, the map image at the top is kept relatively small because it is a poor quality image, however it was the best I could find.  While this page's details are brief there is an extensive 'external links' page with lots of extra sources of info.
+
+![Screenshot of samsung fold campaigns page](assets/images/readme/samsung-fold-campaigns.png)
+![Screenshot of samsung s20 campaigns page](assets/images/readme/samsung-s20-campaigns.png)
+
+Simulation of Samsung Fold (on the left), and Samsung s20 (on the right), on the campaigns page.
 
 ### Consequences Page
 ##### - This page is retained within the README as it is a future feature, it is completely hidden from the user.
@@ -43,6 +52,10 @@ This page acts as a sort of timeline, with a very brief rundown of the individua
 ### External links and Resources Page
 
 This page contains links to useful websites to extend knowledge base, and some useful publications, including a DVD set that remains the only documentary series on this subject ever produced.
+
+![Screenshot of ipad-air external page](assets/images/readme/ipad-air-external.png)
+
+Simulation of iPad Air on the external links page.
 
 # Design
 
@@ -142,12 +155,12 @@ I have run tests checking accessibility of the site using:
 ### Code
 
 I have checked the code using W3C HTML validator - No errors occured.
-![Screen shot of w3-validator output - HTML](assets/images/readme/html-w3-validator.png)
+![Screenshot of w3-validator output - HTML](assets/images/readme/html-w3-validator.png)
 
 !I have only added the HTML screenshoot because every sheet had the same output!
 
 I have checked the code wsing W3C CSS validator - No errors occured.
-![Screen shot of w3c-validator - CSS](assets/images/readme/css-w3c-validator.png)
+![Screenshot of w3c-validator - CSS](assets/images/readme/css-w3c-validator.png)
 
 I have tried to ensure regular commits occured and that things have been commented correctly.
 
