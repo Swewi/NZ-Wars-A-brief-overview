@@ -67,7 +67,22 @@ To highlight the sections within the 'External links and resources Page' I used 
 
 ### Navigation Bar
 
-I have made the navigation bar as responsive as possible, it is fully interactable at all sizes, in the smallest form the menu operates from a classic 'burger' icon, for screens 768px and larger the menu expands fully into a traditonal 'tab' style.  Each menu page connects with every otehr page.
+I have made the navigation bar as responsive as possible, it is fully interactable at all sizes, in the smallest form the menu operates from a classic 'burger' icon:
+
+![Screenshot of colapsed menu](assets/images/readme/phone-fold-menu.png)
+<br>
+
+It opens up to look like this:
+
+![Screenshot of open menu](assets/images/readme/phone-open-menu.png)
+<br>
+
+For screens 768px and larger the menu expands fully into a traditonal 'tab' style:
+
+![Screenshot of larger menu](assets/images/readme/website-menu.png)
+<br>
+
+Each menu page connects with every other page.
 
 ### Resposive Design
 
