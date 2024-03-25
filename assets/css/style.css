@@ -464,7 +464,7 @@ footer {
 
     /*Making google translate button look better*/
     #google_translate_element {
-        padding-top: 7.5rem;
+        padding-top: 5.5rem;
         position: relative;
         /* Enable flex properties to align contents*/
         display: flex;
@@ -545,7 +545,7 @@ footer {
         /*Making google translate button look better*/
         #google_translate_element {
             margin-top: 5rem;
-            padding-top: 0.5rem;
+            padding-top: 2rem;
             position: relative;
             /* Enable flex properties to align contents*/
             display: flex;
@@ -577,7 +577,7 @@ footer {
 
         /*Making google translate button look better*/
         #google_translate_element {
-            padding-top: 1.5rem;
+            padding-top: 1rem;
             position: relative;
             /* Enable flex properties to align contents*/
             display: flex;

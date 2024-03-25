@@ -135,20 +135,37 @@ This is a list of technologies used during the construction and testing of the s
 * Google Chrome's [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) to check accessibility.
 * [NVDA screen reader](https://www.nvaccess.org/) to access screen reader capabilities on website.
 * [Colorfilter](https://www.toptal.com/designers/colorfilter/) to check website for colour-blind accessibility.
+* [ChatGPT](https://chat.openai.com/) used for spell checking, grammar, and readability.
 * [W3C HTML Markup Validator](https://validator.w3.org/) to check HTML code.
 * [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) to check CSS code.
 * Code Institute's Gitpod Template to generate the workspace for the project.
 
 # Testing
 
+### Bugs
+
+* Broken Image after deployment - reformatted the image to jpg.
+    - This fixed the problem.
+* A page was included that was not complete - removed it, added to future features section.
+* Position of Google Translate after deployment - Played with settings in CSS.
+    - fixed the problem.
+* HTML failed validation - changed from 'ID' to 'class'.
+    - fixed the problem, rechecked several times to make sure.
+
 ### Accessibility
 
 I have run tests checking accessibility of the site using:
 ***
-* Screen readers
+* Screen reader - NVDA, this a standalone tool.
     - the screen reader could passably read the site and alt/aria tags, the pronunciation of the Maori words is interesting.
 * Colour blind check
     - the site looked useable, and it was readable.
+    - Test results:
+        - [Red/Green - red cone based](https://www.toptal.com/designers/colorfilter?orig_uri=https://swewi.github.io/NZ-Wars-A-brief-overview/index.html&process_type=protan)
+        - [Red/Green - green cone based](https://www.toptal.com/designers/colorfilter?orig_uri=https://swewi.github.io/NZ-Wars-A-brief-overview/index.html&process_type=deutan)
+        - [Blue/Yellow - blue cone based](https://www.toptal.com/designers/colorfilter?orig_uri=https://swewi.github.io/NZ-Wars-A-brief-overview/index.html&process_type=tritan)
+        - [Greyscale](https://www.toptal.com/designers/colorfilter?orig_uri=https://swewi.github.io/NZ-Wars-A-brief-overview/index.html&process_type=grey)
+
 * Vision Imparied
     - the use of alt-tags and aria-labels throughout the document to maximise usage by vision impaired users.
 
@@ -164,33 +181,57 @@ I have checked the code wsing W3C CSS validator - No errors occured.
 
 I have tried to ensure regular commits occured and that things have been commented correctly.
 
+##### Browsers
+
+I have tested the website on four different browsers:
+* Google Chrome
+    - I have opened every page from every other page, all the links worked.
+    - I have used dev-tools to test image links and alt tags, all showed correctly.
+    - I have tested all the links on the external links page, making sure they conected correctly, all links worked correctly.
+
+* Opera GX
+    - I have opened every page from every other page, all the links worked.
+    - I have used dev-tools to test image links and alt tags, all showed correctly.
+    - I have tested all the links on the external links page, making sure they conected correectly, all links worked correctly.
+
+* Firefox
+    - I have opened every page from every other page, all the links worked.
+    - I have used dev-tools to test image links and alt tags, all showed correctly.
+    - I have tested all the links on the external links page, making sure they conected correectly, all links worked correctly.
+
+* Edge
+    - I have opened every page from every other page, all the links worked.
+    - I have used dev-tools to test image links and alt tags, all showed correctly.
+    - I have tested all the links on the external links page, making sure they conected correectly, all links worked correctly.
+
 #### Lighthouse output
 
 ![desktop output from lighthouse](/assets/images/readme/lighthouseoutput.png)
+<br>
 
-Outcome of testing, while the interface works well, there are some issues, I have no understanding of the google translate code, so I can't fix that one.  I have done my best to replace images with smaller versions, but I have been unable to re-run lighthouse to check new values.
+Outcome of testing I included the 'google translate' from W3 Schools.
 
 # Deployment
 ## Cloning the Repository
 
-* On Github navigate to the repository "https://github.com/Swewi/NZ-Wars-A-brief-overview/tree/main"
-* Click "Code" drop down menu - a green button shown right above the file list.
-* Copy the URL of the repository using "HTTPS", "SSH" or "Github CLI".
+* On Github navigate to the repository `NZ-Wars-A-brief-overview`
+* Click `Code` drop down menu - a <span style="color:green">green button</span> shown right above the file list.
+* `Copy` the URL of the repository using "HTTPS", "SSH" or "Github CLI".
 * Open Git Bash.
 * Change the current working directory to the location where you want the cloned directory.
-* Type "git clone", and then paste the URL copied earlier.
-* Press enter to create local clone. A clone of the repository will now be created.
+* `Type "git clone"`, and then paste the URL copied earlier.
+* Press `enter` to create local clone. A clone of the repository will now be created.
 
 * For more details on how to clone the repository in order to create a copy for own use refer to the site:
 [Cloning a Repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 
 ## Forking a Repository
 
-* On Github navigate to the repository "https://github.com/Swewi/NZ-Wars-A-brief-overview/tree/main"
-* Click "Fork" located towards top right corner on GitHub page.
-* Select "owner" for the forked repository from the dropdown menu under "owner".
-* It will create forked repo under the same name as original by default. But you can type a name in "Repository name" or add a description in "Description" box.
-* Click on "Create fork". A forked repo is created.
+* On Github navigate to the repository `NZ-Wars-A-brief-overview`
+* Click `Fork` located towards top right corner on the GitHub page.
+* Select "owner" for the forked repository from the dropdown menu under `owner`.
+* It will create forked repo under the same name as original by default. But you can type a name in `Repository name` or add a description in `Description box`.
+* Click on `Create fork`. A forked repo is created.
 
 ###### Important Information about forking a repository
 * Forking allows you to make any changes without affecting original project. You can send the the suggestions by submitting a pull request. Then the Project Owner can review the pull request before accepting the suggestions and merging them.
@@ -202,16 +243,17 @@ Outcome of testing, while the interface works well, there are some issues, I hav
 
 This project was deployed to GitHub pages. The steps to deploy are as follows:
 
-1. Log into GitHub.
-2. Select `NZ-Wars-A-brief-overview` from the list of repositories.
-3. Select `Settings` From the Repositories sub-headings.
-4. In the left side menu select `Pages` from `Code and automation` section.
-5. Under the `Source` heading in the dropdown menu select `main`.
-6. A second drop-down menu should remain with the default value `/(root)`.
-7. Press `Save`.
-8. A message that the website is ready to be deployed will appear, refresh the page and the link to the deployed site will be available in a green sub-section on the top of the page.
-9. Click on the link to go to the live deployed page.
+* Log into GitHub.
+* Select `NZ-Wars-A-brief-overview` from the list of repositories.
+* Select `Settings` From the Repositories sub-headings.
+* In the left side menu select `Pages` from `Code and automation` section.
+* Under the `Source` heading in the dropdown menu select `main`.
+* A second drop-down menu should remain with the default value `/(root)`.
+* Press `Save`.
+* A message that the website is ready to be deployed will appear, refresh the page and the link to the deployed site will be available in a green sub-section on the top of the page.
+* Click on the link to go to the live deployed page.
 
+[Link to live website](https://swewi.github.io/NZ-Wars-A-brief-overview/index.html)
 
 # Credits
 
@@ -225,9 +267,8 @@ This project was deployed to GitHub pages. The steps to deploy are as follows:
 * [NZ wars documentary](https://www.youtube.com/watch?v=oP-rFLSwMPk&list=PLjXjdTq37-vSip6Wv3kbMBvrIT9Xr2KFq) Prof. James Belich New Zealand Wars, I have got permission from Prof. Belich to use this media.
 
 ### Code
-I used W3 Schools for help with syntax and making some parts of the website work.
-
-I referenced The Code Institute Walkthrough project - Love Running, and the Coffee Coders project as references for parts of code, as well as flicking through the HTML and CSS sections to get the correct syntax.
+* W3 schools - for the google translate code.  I also used this website for help with getting syntax right.
+* I referenced The Code Institute Walkthrough project - Love Running, and the Coffee Coders project as references for parts of code, as well as flicking through the HTML and CSS sections to get the correct syntax.
 
 ## Acknowledgements
 
