@@ -2,6 +2,8 @@
 
 ![Screenshot of website as a responsive item.](/assets/images/readme/responsiveimage.png)
 
+[Link to live Website](https://swewi.github.io/NZ-Wars-A-brief-overview/index.html)
+
 # Purpose
 
 The idea behind this website is to introduce people to the New Zealand Wars, this is part of history that was barely taught when I was at school.
@@ -33,10 +35,7 @@ I kept order by placing boxes around elements to define them, and draw them toge
 This page acts as a sort of timeline, with a very brief rundown of the individual campaigns, the map image at the top is kept relatively small because it is a poor quality image, however it was the best I could find.  While this page's details are brief there is an extensive 'external links' page with lots of extra sources of info.
 
 ### Consequences Page
-
-I have added some headers for the page, outling the structure this page would have had if I had time to complete it.
-
-It turns out I over stretched my abilities.
+##### - This page is retained within the README as it is a future feature, it is completely hidden from the user.
 
 ### External links and Resources Page
 
@@ -80,6 +79,11 @@ I have done my best to ensure accessibility across all the tabs, I have included
 
 I have maintained a level of contrast between the text and background throughout so people with low-vision can read, with or without a screen reader.
 
+## Future Features
+- Add a consequences page, outlining both long and short term consequences of the wars.
+- Expand the information on each of the pages to make the whole project feel more complete.
+- Add more images to varous pages and sections, but must be non-copyrighted.
+
 # Technologies
 
 This is a list of technologies used during the construction and testing of the site:
@@ -93,11 +97,12 @@ This is a list of technologies used during the construction and testing of the s
 * [Goggle Fonts](https://fonts.google.com/) For website fonts.
 * [Google Dev Tools](https://developer.chrome.com/docs/devtools/) For page inspection and checking website.
 * [CloudConvert](https://cloudconvert.com/avif-to-webp) For image conversion.
+* [TinyJPG](https://tinyjpg.com/) For image compression.
 * [Favicon](https://favicon.io/) To create favicon for the website.
 * [iColorpalette](https://icolorpalette.com/#google_vignette) To create the colour palette for the project.
 * [Am I Responsive](https://ui.dev/amiresponsive) To create mockup image for README.
 * Google Chrome's [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) to check accessibility.
-* [Screen Reader for Chrome](https://chrome.google.com/webstore/detail/screen-reader-for-google/nddfhonnmhcldcbmhbdldfpkbfpgjoeh/related?hl=en) to access screen reader capabilities on website.
+* [NVDA screen reader](https://www.nvaccess.org/) to access screen reader capabilities on website.
 * [Colorfilter](https://www.toptal.com/designers/colorfilter/) to check website for colour-blind accessibility.
 * [W3C HTML Markup Validator](https://validator.w3.org/) to check HTML code.
 * [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) to check CSS code.
@@ -127,9 +132,48 @@ I have tried to ensure regular commits occured and that things have been comment
 
 Outcome of testing, while the interface works well, there are some issues, I have no understanding of the google translate code, so I can't fix that one.  I have done my best to replace images with smaller versions, but I have been unable to re-run lighthouse to check new values.
 
-## Deployment
+# Deployment
+## Cloning the Repository
 
-This project was deployed through github, using the repository 'Swewi/Project-1-kiree-5p' this a public repository.
+* On Github navigate to the repository "https://github.com/Swewi/NZ-Wars-A-brief-overview/tree/main"
+* Click "Code" drop down menu - a green button shown right above the file list.
+* Copy the URL of the repository using "HTTPS", "SSH" or "Github CLI".
+* Open Git Bash.
+* Change the current working directory to the location where you want the cloned directory.
+* Type "git clone", and then paste the URL copied earlier.
+* Press enter to create local clone. A clone of the repository will now be created.
+
+* For more details on how to clone the repository in order to create a copy for own use refer to the site:
+[Cloning a Repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+
+## Forking a Repository
+
+* On Github navigate to the repository "https://github.com/Swewi/NZ-Wars-A-brief-overview/tree/main"
+* Click "Fork" located towards top right corner on GitHub page.
+* Select "owner" for the forked repository from the dropdown menu under "owner".
+* It will create forked repo under the same name as original by default. But you can type a name in "Repository name" or add a description in "Description" box.
+* Click on "Create fork". A forked repo is created.
+
+###### Important Information about forking a repository
+* Forking allows you to make any changes without affecting original project. You can send the the suggestions by submitting a pull request. Then the Project Owner can review the pull request before accepting the suggestions and merging them.
+* When you have fork to a repository, you don't have access to files locally on your device, for getting access you will need to clone the forked repository.
+* For more details on how to fork the repo, in order to for example suggest any changes to the project you can:
+[Forking a Repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+
+## Deploying
+
+This project was deployed to GitHub pages. The steps to deploy are as follows:
+
+1. Log into GitHub.
+2. Select `NZ-Wars-A-brief-overview` from the list of repositories.
+3. Select `Settings` From the Repositories sub-headings.
+4. In the left side menu select `Pages` from `Code and automation` section.
+5. Under the `Source` heading in the dropdown menu select `main`.
+6. A second drop-down menu should remain with the default value `/(root)`.
+7. Press `Save`.
+8. A message that the website is ready to be deployed will appear, refresh the page and the link to the deployed site will be available in a green sub-section on the top of the page.
+9. Click on the link to go to the live deployed page.
+
 
 # Credits
 
