@@ -142,6 +142,12 @@ main {
 
 /*Landing page extra information*/
 
+.responsive-image {
+    max-width: 100%;
+    width: 75%;
+    height: auto;
+}
+
 /*formating both images in extra info section*/
 
 #sheep {
@@ -197,7 +203,7 @@ main {
 }
 
 /*Allows the information to adapt to screens while retaining some form*/
-#psuedo-aside-main {
+.psuedo-aside-main {
     width: 100%;
     padding-left: .5rem;
     margin: .5rem;
@@ -264,37 +270,37 @@ hr {
     justify-content: center;
 }
 
-.northern {
+#northern {
     height: auto;
     border: 2px solid white;
 }
 
-.wellington {
+#wellington {
     height: auto;
     border: 2px solid white;
 }
 
-.waikato {
+#waikato {
     height: auto;
     border: 2px solid white;
 }
 
-.north-taranaki {
+#north-taranaki {
     height: auto;
     border: 2px solid white;
 }
 
-.tauranga {
+#tauranga {
     height: auto;
     border: 2px solid white;
 }
 
-.south-taranaki {
+#south-taranaki {
     height: auto;
     border: 2px solid white;
 }
 
-.east-coast {
+#east-coast {
     width: 90%;
     margin: 0 2rem;
     height: auto;

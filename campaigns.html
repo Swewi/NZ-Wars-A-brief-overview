@@ -77,7 +77,7 @@
                     alt="A map of the north island of New Zealand showing basic general areas of the wars" width="200">
             </div>
             <div class="campaigns-media">
-                <div id="psuedo-aside" class="northern">
+                <div class="psuedo-aside-main" id="northern">
                     <h3>The Northern War, 1845 - 1846</h3>
                     <hr>
                     <p>
@@ -87,7 +87,7 @@
                         that would less than a hundreds years later change the face of modern warfare, trench-warfare.
                     </p>
                 </div>
-                <div class="wellington">
+                <div id="wellington">
                     <h3>Wellington and Whanganui, 1846-1847</h3>
                     <hr>
                     <p>
@@ -96,7 +96,7 @@
                         Wellington and separately around Whanganui.
                     </p>
                 </div>
-                <div id="psuedo-aside" class="north-taranaki">
+                <div class="psuedo-aside-main" id="north-taranaki">
                     <h3>(North) Taranaki, 1860-1861</h3>
                     <hr>
                     <p>
@@ -105,7 +105,7 @@
                         wars of the 1860s (James Belich, The New Zealand Wars DVD)'.
                     </p>
                 </div>
-                <div class="waikato">
+                <div id="waikato">
                     <h3>Waikato, 1863-1864</h3>
                     <hr>
                     <p>
@@ -117,7 +117,7 @@
                         'King Country'
                     </p>
                 </div>
-                <div class="tauranga">
+                <div id="tauranga">
                     <h3>Tauranga, 1864</h3>
                     <hr>
                     <p>
@@ -125,7 +125,7 @@
                         warriors returned from supporting the Maori King.
                     </p>
                 </div>
-                <div class="south-taranaki">
+                <div id="south-taranaki">
                     <h3>(Central-South) Taranaki, 1865-1869</h3>
                     <hr>
                     <p>
@@ -134,7 +134,7 @@
                     </p>
                 </div>
             </div>
-            <div class="east-coast">
+            <div id="east-coast">
                 <h3>East Coast: 1864-1872</h3>
                 <hr>
                 <p>
@@ -155,19 +155,23 @@
     <!--Font Awesome Kit-->
     <script src="https://kit.fontawesome.com/1f32015eb0.js" crossorigin="anonymous"></script>
 
-    <!--Google Translate options-->
-    <script type="text/javascript">
-        function googleTranslateElementInit() {
-            new google.translate.TranslateElement({
-                pageLanguage: 'en',
-                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-            }, 'google_translate_element');
-        }
-    </script>
+    <!-- Include Google Translate Script -->
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
-    </script>
+<!-- Script to Initialize Google Translate -->
+<script type="text/javascript">
+    // Function to initialize Google Translate
+    function googleTranslateElementInit() {
+        // Options for Google Translate
+        var options = {
+            pageLanguage: 'en', // Set the default language of the page
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE // Set the layout style of the translate element
+        };
 
+        // Create a new Google Translate Element with specified options
+        new google.translate.TranslateElement(options, 'google_translate_element');
+    }
+</script>
 
 </body>
 

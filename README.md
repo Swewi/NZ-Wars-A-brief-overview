@@ -127,8 +127,6 @@ I have tried to ensure regular commits occured and that things have been comment
 
 Outcome of testing, while the interface works well, there are some issues, I have no understanding of the google translate code, so I can't fix that one.  I have done my best to replace images with smaller versions, but I have been unable to re-run lighthouse to check new values.
 
-There is one image that is causing a problem I have checked and re-checked the file path re-added the image, nothing has fixed the issue.
-
 ## Deployment
 
 This project was deployed through github, using the repository 'Swewi/Project-1-kiree-5p' this a public repository.

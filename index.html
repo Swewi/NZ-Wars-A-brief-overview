@@ -78,7 +78,7 @@
         <section class="info">
             <div id="sheep">
                 <img src="assets/images/sheeproad.webp" alt="Picture of a mob of sheep on a road in New Zealand"
-                    width="75%">
+                    class="responsive-image">
             </div>
             <p class="statement-box">
                 When people think of New Zealand they tend to think of a country with a love of the outdoors, sandy
@@ -88,7 +88,7 @@
             </p>
             <div id="beach">
                 <img src="assets/images/mountmanganuibeach.jpg" alt="Picture of Mount Manganui beach and town"
-                    width="75%">
+                    class="responsive-image">
             </div>
         </section>
     </main>
@@ -101,19 +101,23 @@
     <!--Font Awesome Kit-->
     <script src="https://kit.fontawesome.com/1f32015eb0.js" crossorigin="anonymous"></script>
 
-    <!--Google Translate options-->
-    <script type="text/javascript">
-        function googleTranslateElementInit() {
-            new google.translate.TranslateElement({
-                pageLanguage: 'en',
-                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-            }, 'google_translate_element');
-        }
-    </script>
+    <!-- Include Google Translate Script -->
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
-    </script>
+<!-- Script to Initialize Google Translate -->
+<script type="text/javascript">
+    // Function to initialize Google Translate
+    function googleTranslateElementInit() {
+        // Options for Google Translate
+        var options = {
+            pageLanguage: 'en', // Set the default language of the page
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE // Set the layout style of the translate element
+        };
 
+        // Create a new Google Translate Element with specified options
+        new google.translate.TranslateElement(options, 'google_translate_element');
+    }
+</script>
 
 </body>
 
