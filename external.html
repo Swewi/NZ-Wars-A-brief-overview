@@ -4,37 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Metatags for Search Engines -->
+    <!--Metatags for Search Engines-->
     <meta name="description" content="The New Zealand Wars
     A website about The New Zealand Wars, their cause, campaigns, and consequences">
     <meta name="keywords" content="New Zealand Wars, New Zealand History, Maori history, New Zealand">
-    <!-- Page Title -->
+    <!--Page Title-->
     <title>The New Zealand Wars</title>
-    <!-- Favicons -->
+    <!--Favicons-->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <!-- CSS sheet -->
+    <!--css sheet-->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
-    <!-- Header -->
+    <!--Header-->
     <header>
         <a href="index.html">
             <h1 id="logo">
                 The New Zealand Wars
             </h1>
         </a>
-        <!-- Navigation Toggle -->
         <input type="checkbox" name="nav-toggle" id="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label">
             <i class="fa-solid fa-bars"></i>
         </label>
 
-        <!-- Navigation Menu -->
         <nav>
             <ul id="menu">
                 <li>
@@ -66,26 +64,23 @@
         </nav>
     </header>
 
-    <!-- Adding a google translate button to increase accessibility -->
+    <!--Adding a google translate button to increase accesabiltiy-->
     <div id="google_translate_element"></div>
 
-    <!-- Main Content -->
+    <!--Main Content-->
     <main>
-        <!-- Section for External Links and Resources -->
         <section class="external-links" aria-label="Links to external sources about The New Zealand Wars">
             <h2>External Links and Resources</h2>
             <br>
         </section>
-        <!-- Section for Youtube Channel Link -->
-        <section id="youtube" aria-label="Link to relevant Youtube channel">
+        <section id="youtube" aria-label="Link to relavent Youtube channel">
             <h3><i class="fa-brands fa-youtube-square"></i> Youtube</h3>
             <a href="https://www.youtube.com/@NewZealandsSecretHiddenHistory" target="_blank" rel="noopener"
-                aria-label="Opens a youtube link to a channel about New Zealand's Hidden History">New
-                Zealand's Hidden History
+                aria-label="Opens a youtube link to a channel about New Zealands Hidden History">New
+                Zealands Hidden History
             </a>
         </section>
-        <!-- Section for External Links -->
-        <section id="links" aria-label="Links to relevant websites">
+        <section id="links" aria-label="Links to relavent websites">
             <h3><i class="fa-solid fa-arrow-up-right-from-square"></i> External links</h3>
             <ul>
                 <li>
@@ -113,15 +108,13 @@
                 </li>
             </ul>
         </section>
-        <!-- Section for Printed Material and Films -->
-        <section class="print-film" aria-label="List of printed material related to The New Zealand Wars, including DVDs, books, and films">
-            <!-- Subsection for Documentaries -->
+        <section class="print-film"
+            aria-label="List of printed material related to The New Zealand Wars, including DVD's, books, and films">
             <div id="docos">
                 <h3><i class="fa-solid fa-video"></i> Documentaries</h3>
                 <p>James Belich, The New Zealand Wars, 5 DVDs, Television New Zealand, 1998, Distributed by Silver &
                     Ballard NZ Ltd, Auckland.</p>
             </div>
-            <!-- Subsection for Books -->
             <div id="books">
                 <h3><i class="fa-solid fa-book"></i> Books</h3>
                 <ul>
@@ -130,18 +123,41 @@
                             NZ,
                             2005</p>
                     </li>
-                    <!-- Add more book entries as needed -->
+                    <li>
+                        <p>David Green, Battlefields of the New Zealand Wars, Penguin Books, Auckland, 2010.</p>
+                    </li>
+                    <li>
+                        <p>Ian Knight and Raffaele Ruggeri, The New Zealand Wars 1820-72, Osprey Publishing, Oxford,
+                            2013.
+                        </p>
+                    </li>
+                    <li>
+                        <p>James Belich, The New Zealand Wars and the Victorian Interpretation of Racial Conflict,
+                            Penguin
+                            Books, Auckland NZ, 1988 (first published 1985)</p>
+                    </li>
+                    <li>
+                        <p>James Cowan, The New Zealand Wars. A History of the Māori Campaigns and PioneeringÂ Period,
+                            R. E.
+                            Owen Government Printer, Wellington. Published in two volumes -Â Volume One was published in
+                            1922; Volume Two was published in 1923</p>
+                    </li>
+                    <li>
+                        <p>Keith Sinclair, Origins of the Māori Wars, Auckland University Press, Auckland, 1957</p>
+                    </li>
+                    <li>
+                        <p>Tim Ryan and Bill Parham, The Colonial New Zealand Wars, Grantham House, Wellington NZ (1986,
+                            reprinted with new material 2003)</p>
+                    </li>
                 </ul>
             </div>
-            <!-- Subsection for Films -->
             <div id="films">
                 <h3><i class="fa-solid fa-film"></i> Films</h3>
-                <p>While there are many films out there I have only included two, both worth a watch if they can be found
+                <p>While there are many films out there I have only inluded two, both worth a watch if they can be found
                 </p>
                 <ul>
                     <li>UTU the movie, released in 1984</li>
                     <li>River Queen, released in 2005</li>
-                    <!-- Add more film entries as needed -->
                 </ul>
             </div>
         </section>
@@ -152,26 +168,19 @@
         <h5>Made by Kiree</h5>
     </footer>
 
-    <!-- Font Awesome Kit -->
-    <script src="https://kit.fontawesome.com/1f32015eb0.js" crossorigin="anonymous"></script>
-
-    <!-- Include Google Translate Script -->
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
     <!-- Script to Initialize Google Translate -->
     <script type="text/javascript">
         // Function to initialize Google Translate
         function googleTranslateElementInit() {
-            // Options for Google Translate
-            var options = {
-                pageLanguage: 'en', // Set the default language of the page
-                layout: google.translate.TranslateElement.InlineLayout.SIMPLE // Set the layout style of the translate element
-            };
+            new google.translate.TranslateElement({
+                pageLanguage: 'en'
+            }, 'google_translate_element');
+        }
+    </script>
 
-            // Create a new Google Translate Element with specified options
-        new google.translate.TranslateElement(options, 'google_translate_element');
-    }
-</script>
+    <!-- Include Google Translate Script -->
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
 
 </body>
 
