@@ -288,9 +288,9 @@ hr {
     border: 2px solid white;
 }
 
-/*consequences section*/
+/*consequences section
 
-/*Not Completed at this time*/
+Not Completed at this time - commented out so I can still access to work on at a future date.
 
 .consequences h2 {
     text-transform: capitalize;
@@ -309,7 +309,7 @@ hr {
 .consequences p {
     padding: 0 20px;
     text-align: left;
-}
+}*/
 
 /*changing style*/
 .psuedo-aside-main {
