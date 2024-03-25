@@ -20,6 +20,9 @@ I have attempted to make this website as accesable as possible and as adaptable 
 # Structure
 ### Home Page
 
+![Collage of home screen images](assets/images/readme/home-page.png)
+<br>
+
 The home page is designed to attract attention, I have used a large 'Hero Image' and colour that not only compliment the image but have a relaxing feel.  The Hero Image selected is relavent to the content, as well as possibly drawing people to the site.
 
 The secondary images I used are 'classsic' New Zealand images that people associate with the country. Alonside text that draws attention to the reasons why the site was designed.
@@ -129,15 +132,22 @@ This is a list of technologies used during the construction and testing of the s
 
 I have run tests checking accessibility of the site using:
 ***
-* Screen readers - the site was read, the pronunciation of non-english words was rough but it was listenable.
-* Colour blind check - the site looked good, was readable.
-* Vision Imparied - the use of alt-tags and aria-labels to throughout.
+* Screen readers
+    - the screen reader could passably read the site and alt/aria tags, the pronunciation of the Maori words is interesting.
+* Colour blind check
+    - the site looked useable, and it was readable.
+* Vision Imparied
+    - the use of alt-tags and aria-labels throughout the document to maximise usage by vision impaired users.
 
 ### Code
 
-I have checked the code using W3C HTML validator - The errors that exist are issues I can't control or known about and accepted.
+I have checked the code using W3C HTML validator - No errors occured.
+![Screen shot of w3-validator output - HTML](assets/images/readme/html-w3-validator.png)
+
+!I have only added the HTML screenshoot because every sheet had the same output!
 
 I have checked the code wsing W3C CSS validator - No errors occured.
+![Screen shot of w3c-validator - CSS](assets/images/readme/css-w3c-validator.png)
 
 I have tried to ensure regular commits occured and that things have been commented correctly.
 
@@ -196,9 +206,9 @@ This project was deployed to GitHub pages. The steps to deploy are as follows:
 ***
 * [Ruapekapeka Pa Gate](https://walkinnz.home.blog/) sourced from the history hits website.
 * My own photos.
-* [Various images](https://natlib.govt.nz/schools/topics/5d24041bfb002c625d9dc3f2) Historic images.
-* [Various images](https://www.alamy.com/stock-photo/new-zealand-wars.html?sortBy=relevant) Historic images.
-* [Various images](https://www.gettyimages.com.au/photos/maori-war) Historic images.
+* [National library of NZ - Various images](https://natlib.govt.nz/schools/topics/5d24041bfb002c625d9dc3f2) Historic images.
+* [Almy - Various images](https://www.alamy.com/stock-photo/new-zealand-wars.html?sortBy=relevant) Historic images.
+* [Getty Images - Various images](https://www.gettyimages.com.au/photos/maori-war) Historic images.
 * [NZ wars documentary](https://www.youtube.com/watch?v=oP-rFLSwMPk&list=PLjXjdTq37-vSip6Wv3kbMBvrIT9Xr2KFq) Prof. James Belich New Zealand Wars, I have got permission from Prof. Belich to use this media.
 
 ### Code
@@ -208,4 +218,6 @@ I referenced The Code Institute Walkthrough project - Love Running, and the Coff
 
 ## Acknowledgements
 
-I would like to acknowledge my partner for being incrediably understanding when I am working over weekends and late into the night.  I would also like to acknowledge my mentor Ronan for his help.
+I would like to acknowledge my partner for being incrediably understanding when I am working over weekends and late into the night.  
+
+I would also like to acknowledge my mentor Ronan for his help.
