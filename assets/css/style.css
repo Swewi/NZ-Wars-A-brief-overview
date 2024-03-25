@@ -203,13 +203,6 @@ main {
 }
 
 /*Allows the information to adapt to screens while retaining some form*/
-.psuedo-aside-main {
-    width: 100%;
-    padding-left: .5rem;
-    margin: .5rem;
-    border-left: 1px solid #6c4c74;
-}
-
 #land #new-settlers #treaty #settler-integration p {
     width: 60%;
     padding-bottom: 10px;
@@ -328,6 +321,15 @@ hr {
 .consequences p {
     padding: 0 20px;
     text-align: left;
+}
+
+/*changing style*/
+
+.psuedo-aside-main {
+    width: 100%;
+    padding-left: .5rem;
+    margin: .5rem;
+    border-left: 1px solid #ffffff;
 }
 
 /*external links page*/
