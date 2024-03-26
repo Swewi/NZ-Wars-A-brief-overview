@@ -217,7 +217,7 @@ Outcome of testing I included the 'google translate' from W3 Schools.
 ## Cloning the Repository
 
 * On Github navigate to the repository `NZ-Wars-A-brief-overview`
-* Click `Code` drop down menu - a <span style="color:green">green button</span> shown right above the file list.
+* Click `Code` drop down menu - a green button shown right above the file list.
 * `Copy` the URL of the repository using "HTTPS", "SSH" or "Github CLI".
 * Open Git Bash.
 * Change the current working directory to the location where you want the cloned directory.
