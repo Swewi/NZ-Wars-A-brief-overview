@@ -288,29 +288,6 @@ hr {
     border: 2px solid white;
 }
 
-/*consequences section
-
-Not Completed at this time - commented out so I can still access to work on at a future date.
-
-.consequences h2 {
-    text-transform: capitalize;
-    font-size: 150%;
-    text-align: center;
-    margin-bottom: 20px;
-    padding: 1rem 3rem;
-}
-
-.consequences h3 {
-    text-transform: capitalize;
-    font-size: 100%;
-    text-align: center;
-}
-
-.consequences p {
-    padding: 0 20px;
-    text-align: left;
-}*/
-
 /*changing style*/
 .psuedo-aside-main {
     width: 100%;
