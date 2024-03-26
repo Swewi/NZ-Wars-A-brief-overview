@@ -4,6 +4,8 @@
 
 [Link to live Website](https://swewi.github.io/NZ-Wars-A-brief-overview/index.html)
 
+This is Portfolio Project 1 for Full Stack Developer Diploma taught through Code Insititute.
+
 # Purpose
 
 The idea behind this website is to introduce people to the New Zealand Wars, this is part of history that was barely taught when I was at school.
