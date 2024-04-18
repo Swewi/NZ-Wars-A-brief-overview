@@ -11,7 +11,7 @@
 
 /*General styles*/
 body {
-    min-height: 100vh;
+    min-height: 100vh !important;
     display: flex;
     flex-direction: column;
     color: #3a3a3a;
@@ -136,36 +136,53 @@ main {
     text-transform: capitalize;
 }
 
-/*Landing page extra information*/
-.responsive-image {
-    max-width: 100%;
-    width: 75%;
+/*formating both images and text in extra info section*/
+.info {
+    position: relative;
+    padding: 20px;
+    width: 100%;
     height: auto;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
 }
 
-/*formating both images in extra info section*/
 #sheep {
-    display: flex;
-    justify-content: right;
-    padding-top: 1rem;
-    padding-right: 1rem;
+    align-items: flex-end;
+    max-width: 100%;
+    max-height: 40%;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    order: 1;
 }
 
 #beach {
-    display: flex;
-    justify-content: left;
-    padding-bottom: 1rem;
-    padding-left: 1rem;
+    justify-content: flex-start;
+    max-width: 40%; /* Adjust as needed */
+    max-height: 40%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    order: 3;
 }
 
-.statement-box {
-    padding: 0 5px;
+#beach img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#statement-box {
+    justify-self: center;
+    max-width: 60%; /* Adjust as needed */
+    padding: 20px;
+    margin-top: 5rem; /* Add margin to create space between elements */
     border-radius: 8px;
-    margin: 0 2%;
+    text-align: center;
     color: #bab49e;
     background-color: #6d4f75;
+    order: 2;
 }
-
 
 /*Causes Page*/
 causes {
@@ -396,7 +413,6 @@ hr {
 footer {
     text-align: center;
     padding: 20px 0;
-    display: flex;
     font: 100%;
     padding: 1%;
     background-color: #9c959b;
@@ -459,13 +475,13 @@ footer {
         font-size: large;
     }
 
-    #sheep {
-        padding-right: 4rem;
+    /* #sheep {
+        padding-right: 10px;
     }
 
     #beach {
-        padding-left: 4rem;
-    }
+        padding-left: 10px;
+    } */
 
     /*causes section*/
     #psuedo-aside {
@@ -534,13 +550,13 @@ footer {
             font-size: x-large;
         }
 
-        #sheep {
-            padding-right: 5rem;
+        /* #sheep {
+            padding-right: 10px;
         }
 
         #beach {
-            padding-left: 5rem;
-        }
+            padding-left: 10px;
+        } */
 
     }
 
