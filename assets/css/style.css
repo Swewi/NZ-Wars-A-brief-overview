@@ -148,27 +148,36 @@ main {
 
 /*Landing page extra information*/
 .responsive-image {
-    max-width: 100%;
-    width: 75%;
+    max-width: 60%;
     height: auto;
+    border: hidden;
+    border-radius: 20px;
 }
 
-/*formating both images in extra info section*/
-#sheep {
+#sheep, #beach {
+    width: 100%;
+    padding: 1rem;
     display: flex;
-    justify-content: right;
-    padding-top: 1rem;
-    padding-right: 1rem;
+}
+
+#sheep {
+    justify-content: flex-end;
+    padding-right: 0.3rem;
 }
 
 #beach {
+    justify-content: flex-start;
+    padding-left: 0.3rem;
+}
+
+.statement-container {
+    width: 100%;
     display: flex;
-    justify-content: left;
-    padding-bottom: 1rem;
-    padding-left: 1rem;
+    justify-content: center;
 }
 
 .statement-box {
+    max-width: 55%;
     padding: 0 5px;
     border-radius: 8px;
     margin: 0 2%;
@@ -404,12 +413,14 @@ hr {
 
 /* Footer */
 footer {
-    text-align: center;
     padding: 20px 0;
-    display: flex;
-    font: 100%;
-    padding: 1%;
     background-color: #9c959b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copywrite {
     color: #4b4533;
 }
 
@@ -422,7 +433,6 @@ footer {
     }
 
     nav {
-
         position: static;
         display: block;
         width: auto;
@@ -475,12 +485,16 @@ footer {
     /*Hero*/
     #cover-text {
         width: 300px;
-        left: 72rem;
+        left: 23rem;
     }
 
     /*Landing page extra information*/
     .statement-box {
         font-size: large;
+    }
+
+    .responsive-image {
+        max-width: 50%;
     }
 
     #sheep {
@@ -554,6 +568,16 @@ footer {
         justify-content: flex-end;
     }
 
+    /*Hero*/
+    #cover-text {
+        width: 300px;
+        left: 41rem;
+    }
+
+    .responsive-image {
+        max-width: 50%;
+    }
+
     /*Landing page extra information*/
     .statement-box {
         font-size: x-large;
@@ -584,5 +608,15 @@ footer {
         /* Enable flex properties to align contents*/
         display: flex;
         justify-content: flex-end;
+    }
+
+    /*Hero*/
+    #cover-text {
+        width: 300px;
+        left: 72rem;
+    }
+
+    .responsive-image {
+        max-width: 40%;
     }
 }
