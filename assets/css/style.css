@@ -13,7 +13,6 @@ body {
     display: flex;
     flex-direction: column;
     color: #3a3a3a;
-    background-color: aqua;
     font-family: 'Kavivanar', sans-serif;
 }
 
@@ -50,17 +49,30 @@ header a {
 }
 
 #menu {
-    font-size: 100%;
-    letter-spacing: 2px;
+    font-size: large;
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 #menu>li {
-    margin-bottom: 1em;
+    margin: 0.2em;
+    text-decoration: none;
+    transition: color 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 6px;
+    padding: .5rem;
 }
 
 .active {
-    border-bottom: 1px solid #6c4c74;
+    border-bottom: 2px solid #222122;
+}
+
+#menu li:hover,
+#menu li:focus {
+    color: #ca050f;
+    box-shadow: 0 0 0 2px #e02a5a;
+    outline: 2px solid #af050d;
+    outline-offset: 2px;
 }
 
 /*Navbar*/
@@ -467,10 +479,6 @@ footer {
 
     #menu {
         display: flex;
-    }
-
-    #menu>li {
-        padding-left: 1rem;
     }
 
     .nav-toggle-label {
