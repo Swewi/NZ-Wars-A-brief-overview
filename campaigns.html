@@ -21,9 +21,7 @@
 
 <body>
 
-    <!-- Header -->
     <header>
-        <!-- Logo and Navigation -->
         <a href="index.html">
             <h1 id="logo">
                 The New Zealand Wars
@@ -70,66 +68,61 @@
         </nav>
     </header>
 
-    <!-- Main Content -->
     <main>
-        <!-- Section for Campaigns -->
         <section class="campaigns" aria-label="The major campaigns of The New Zealand Wars">
             <h2>Campaigns of the New Zealand Wars</h2>
             <br>
-            <!-- Image showing map of the wars -->
-            <div>
-                <img src="assets/images/nzwarsmap.png"
-                    alt="A map of the north island of New Zealand showing basic general areas of the wars" width="200">
+            <div class="map-container">
+                <img class="map" src="assets/images/nzwarsmap.png"
+                    alt="A map of the north island of New Zealand showing basic general areas of the wars">
+                <p class="map-caption">Historical map showing approximate locations of major campaigns (low resolution)</p>
             </div>
-            <!-- Individual Campaign Sections -->
-            <div class="campaigns-media">
-                <!-- Northern War -->
-                <div class="psuedo-aside-main" id="northern">
-                    <h3>The Northern War, 1845 - 1846</h3>
-                    <hr>
-                    <p>
-                        Started with Hone Heke repeatedly removing the flagpole at Maiki Hill (Flagstaff hill), and
-                        attacking the settlement of Kororareka, it ended with the battle of Ruapekapeka, this first war
-                        marked a dramatic change in how the Maori faught using an invention of the Chief Te Ruki Kawiti,
-                        that would less than a hundreds years later change the face of modern warfare, trench-warfare.
-                    </p>
-                </div>
-                <!-- Wellington and Whanganui -->
-                <div id="wellington">
-                    <h3>Wellington and Whanganui, 1846-1847</h3>
-                    <hr>
-                    <p>
-                        Began after land disputes, a recurring theme across the whole conflict, with the local Iwi
-                        around
-                        Wellington and separately around Whanganui.
-                    </p>
-                </div>
-                <!-- (North) Taranaki -->
-                <div class="psuedo-aside-main" id="north-taranaki">
-                    <h3>(North) Taranaki, 1860-1861</h3>
-                    <hr>
-                    <p>
-                        Land disputes again caused this, with the battle of Te Kohia beginning the so-called 'great
-                        civil
-                        wars of the 1860s (James Belich, The New Zealand Wars DVD)'.
-                    </p>
-                </div>
-                <!-- Waikato -->
-                <div id="waikato">
-                    <h3>Waikato, 1863-1864</h3>
-                    <hr>
-                    <p>
-                        Began with the British invading the Maori King's home area of The Waikato, after a major
-                        engagement
-                        at Rangiriri the British pushed south and eventually defeated the Maori at Orakau, at which
-                        point
-                        the Maori King Tawhiao fled and took refuge with Ngāti Maniapoto in the area later known as the
-                        'King Country'
-                    </p>
-                </div>
+            <!-- Northern War -->
+            <div class="campaign-section northern">
+                <h3>The Northern War, 1845 - 1846</h3>
+                <hr>
+                <p>
+                    Started with Hone Heke repeatedly removing the flagpole at Maiki Hill (Flagstaff hill), and
+                    attacking the settlement of Kororareka, it ended with the battle of Ruapekapeka, this first war
+                    marked a dramatic change in how the Maori faught using an invention of the Chief Te Ruki Kawiti,
+                    that would less than a hundreds years later change the face of modern warfare, trench-warfare.
+                </p>
+            </div>
+            <!-- Wellington and Whanganui -->
+            <div class="campaign-section welliwood">
+                <h3>Wellington and Whanganui, 1846-1847</h3>
+                <hr>
+                <p>
+                    Began after land disputes, a recurring theme across the whole conflict, with the local Iwi
+                    around
+                    Wellington and separately around Whanganui.
+                </p>
+            </div>
+            <!-- (North) Taranaki -->
+            <div class="campaign-section taranaki1">
+                <h3>(North) Taranaki, 1860-1861</h3>
+                <hr>
+                <p>
+                    Land disputes again caused this, with the battle of Te Kohia beginning the so-called 'great
+                    civil
+                    wars of the 1860s (James Belich, The New Zealand Wars DVD)'.
+                </p>
+            </div>
+            <!-- Waikato -->
+            <div class="campaign-section waikato">
+                <h3>Waikato, 1863-1864</h3>
+                <hr>
+                <p>
+                    Began with the British invading the Maori King's home area of The Waikato, after a major
+                    engagement
+                    at Rangiriri the British pushed south and eventually defeated the Maori at Orakau, at which
+                    point
+                    the Maori King Tawhiao fled and took refuge with Ngāti Maniapoto in the area later known as the
+                    'King Country'
+                </p>
             </div>
             <!-- Tauranga -->
-            <div id="tauranga">
+            <div class="campaign-section tauranga">
                 <h3>Tauranga, 1864</h3>
                 <hr>
                 <p>
@@ -138,7 +131,7 @@
                 </p>
             </div>
             <!-- South Taranaki -->
-            <div id="south-taranaki">
+            <div class="campaign-section taranaki2">
                 <h3>(Central-South) Taranaki, 1865-1869</h3>
                 <hr>
                 <p>
@@ -147,7 +140,7 @@
                 </p>
             </div>
             <!-- East Coast -->
-            <div id="east-coast">
+            <div class="campaign-section eastcoast">
                 <h3>East Coast: 1864-1872</h3>
                 <hr>
                 <p>
@@ -159,7 +152,6 @@
         </section>
     </main>
 
-    <!-- Footer -->
     <footer>
         <h5>Made by Kiree</h5>
     </footer>

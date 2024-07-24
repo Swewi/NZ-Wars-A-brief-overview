@@ -10,6 +10,8 @@
 /*General styles*/
 body {
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     color: #3a3a3a;
     background-color: aqua;
     font-family: 'Kavivanar', sans-serif;
@@ -106,11 +108,12 @@ nav {
     text-align: right;
 }
 
-/*Main content*/
 main {
     background-color: #bab49e;
-    flex: 1 0 auto;
+    flex: 1;
     padding-top: 140px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Hero section */
@@ -238,8 +241,12 @@ hr {
 
 /*Campaigns page*/
 .campaigns {
+    flex: 1;
     width: 90%;
     margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .campaigns h2 {
@@ -264,55 +271,48 @@ hr {
     margin: 5px 0;
 }
 
-.campaigns div {
-    padding: 0 1rem;
-    text-align: center;
-    justify-content: center;
-}
-
-#northern {
-    height: auto;
-    border: 2px solid white;
-}
-
-#wellington {
-    height: auto;
-    border: 2px solid white;
-}
-
-#waikato {
-    height: auto;
-    border: 2px solid white;
-}
-
-#north-taranaki {
-    height: auto;
-    border: 2px solid white;
-}
-
-#tauranga {
-    height: auto;
-    border: 2px solid white;
-}
-
-#south-taranaki {
-    height: auto;
-    border: 2px solid white;
-}
-
-#east-coast {
-    width: 90%;
-    margin: 0 2rem;
-    height: auto;
-    border: 2px solid white;
-}
-
-/*changing style*/
-.psuedo-aside-main {
+.map {
+    max-width: 300px; /* Adjust this value as needed */
     width: 100%;
-    padding-left: .5rem;
-    margin: .5rem;
-    border-left: 1px solid #ffffff;
+    height: auto;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #6d4f75;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.map-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.map-caption {
+    font-size: 0.8em;
+    color: #666;
+    margin-top: 10px;
+}
+
+.campaign-section {
+    max-width: 55%;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin: 10px 0;
+    color: #bab49e;
+    background-color: #6d4f75;
+    align-self: flex-start;
+}
+
+/* Left-aligned sections */
+.campaign-section:nth-child(odd) {
+    align-self: flex-start;
+}
+
+/* Right-aligned sections */
+.campaign-section:nth-child(even) {
+    align-self: flex-end;
 }
 
 /*external links page*/
@@ -503,47 +503,6 @@ footer {
 
     #beach {
         padding-left: 4rem;
-    }
-
-    /*causes section*/
-    #psuedo-aside {
-        width: 45%;
-        padding-left: 1rem;
-        margin: 1rem;
-        float: left;
-        border-left: 1px solid white;
-        font-style: italic;
-    }
-
-    /*campaigns page*/
-    .wellington {
-        float: right;
-        width: 40%;
-    }
-
-    .waikato {
-        float: right;
-        width: 40%;
-    }
-
-    .tauranga {
-        float: left;
-        padding-left: 2rem;
-        margin-bottom: 1rem;
-        width: 40%;
-    }
-
-    .south-taranaki {
-        float: right;
-        margin-right: 1.5rem;
-        margin-bottom: 1.5rem;
-        width: 40%;
-    }
-
-    .east-coast {
-        display: flex;
-        justify-self: baseline;
-        width: 100%;
     }
 }
 
