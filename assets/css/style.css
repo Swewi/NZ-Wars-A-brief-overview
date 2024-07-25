@@ -23,10 +23,11 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font-family: 'Inter', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     color: #4b4533;
 }
 
@@ -163,33 +164,37 @@ main {
 
 /*Landing page extra information*/
 .responsive-image {
-    max-width: 60%;
+    width: 45%;
     height: auto;
-    border: hidden;
-    border-radius: 20px;
+    object-fit: cover;
+    border-radius: 10px;
+    z-index: 0;
 }
 
-#sheep,
-#beach {
-    width: 100%;
-    padding: 1rem;
+.top-images {
     display: flex;
+    justify-content: space-around;
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
-#sheep {
-    justify-content: flex-end;
-    padding-right: 0.3rem;
-}
-
-#beach {
-    justify-content: flex-start;
-    padding-left: 0.3rem;
+.bottom-images {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1.5rem;
 }
 
 .statement-container {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    position: relative;
+    z-index: 1;
 }
 
 .statement-box {
@@ -199,8 +204,8 @@ main {
     margin: 0 2%;
     color: #bab49e;
     background-color: #6d4f75;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
 
 /*Causes Page*/
 causes {
@@ -546,13 +551,15 @@ footer {
         font-size: large;
     }
 
+    .statement-container {
+        margin-top: -10px;
+        margin-bottom: -10px;
+    }
+
     .responsive-image {
         max-width: 50%;
     }
 
-    #sheep {
-        padding-right: 4rem;
-    }
 
     #beach {
         padding-left: 4rem;
@@ -595,8 +602,9 @@ footer {
         font-size: x-large;
     }
 
-    #sheep {
-        padding-right: 5rem;
+    .statement-container {
+        margin-top: -20px;
+        margin-bottom: -20px;
     }
 
     #beach {
@@ -629,6 +637,6 @@ footer {
     }
 
     .responsive-image {
-        max-width: 40%;
+        max-width: 60%;
     }
 }
