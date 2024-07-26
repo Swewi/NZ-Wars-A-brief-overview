@@ -222,10 +222,9 @@ main {
     padding: 1rem 3rem;
 }
 
-.causes h3 {
+.cause-section h3 {
     font-size: 100%;
     text-align: center;
-    
 }
 
 .cause-section {
@@ -274,6 +273,25 @@ main {
 .causes-img-caption {
     font-size: 0.8em;
     color: #242121;
+}
+
+.causes-supplemental a {
+    font-size: small;
+    background-color: #d1d1d1;
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 6px;
+    margin: 1rem;
+    padding: 0 0.2rem;
+}
+
+.causes-supplemental a:hover,
+.causes-supplemental a:focus {
+    color: #ca050f;
+    box-shadow: 0 0 0 2px #e02a5a;
+    outline: 2px solid #af050d;
+    outline-offset: 2px;
 }
 
 hr {
@@ -374,6 +392,10 @@ hr {
     outline: 2px solid #af050d;
     outline-offset: 2px;
 }
+
+/*consequences page*/
+
+
 
 /*external links page*/
 .external-links h2 {

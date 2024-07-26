@@ -6,20 +6,22 @@
 
 This is Portfolio Project 1 for Full Stack Developer Diploma taught through Code Insititute.
 
-# Purpose
+## Purpose
 
 The idea behind this website is to introduce people to the New Zealand Wars, this is part of history that was barely taught when I was at school.
 In an effort to improve the information around this subject the website is designed to deliver core information with external links to more indepth sources.
 
-# UX
+## UX
+
 ### Users
 
- - As a first time user I want them to be caught by the images, and easy to use layout.
- - As a returning user I want them to actively interact with the external links and investigate further into the site.
+- As a first time user I want them to be caught by the images, and easy to use layout.
+- As a returning user I want them to actively interact with the external links and investigate further into the site.
 
 I have attempted to make this website as accesable as possible and as adaptable to various screen sizes.
 
-# Structure
+## Structure
+
 ### Home Page
 
 ![Collage of home screen images](assets/images/readme/home-page.png)
@@ -49,7 +51,8 @@ This page acts as a sort of timeline, with a very brief rundown of the individua
 Simulation of Samsung Fold (on the left), and Samsung s20 (on the right), on the campaigns page.
 
 ### Consequences Page
-##### - This page is retained within the README as it is a future feature, it is completely hidden from the user.
+
+#### - This page is retained within the README as it is a future feature, it is completely hidden from the user
 
 ### External links and Resources Page
 
@@ -59,7 +62,7 @@ This page contains links to useful websites to extend knowledge base, and some u
 
 Simulation of iPad Air on the external links page.
 
-# Design
+## Design
 
 ### Colour Scheme
 
@@ -81,7 +84,7 @@ The font I choose for all the text was 'Kavivanar', this font was an interesting
 
 To highlight the sections within the 'External links and resources Page' I used a number of 'favicons', doing my best to use relavent images, I also used the 'classic' burger icon for the mobile menu drop down.
 
-# Features
+## Features
 
 ### Navigation Bar
 
@@ -113,63 +116,66 @@ I have done my best to ensure accessibility across all the tabs, I have included
 I have maintained a level of contrast between the text and background throughout so people with low-vision can read, with or without a screen reader.
 
 ## Future Features
+
 - Add a consequences page, outlining both long and short term consequences of the wars.
 - Expand the information on each of the pages to make the whole project feel more complete.
 - Add more images to varous pages and sections, but must be non-copyrighted.
 
-# Technologies
+## Technologies
 
 This is a list of technologies used during the construction and testing of the site:
 ***
-* HTML to accomplish the structure of the website.
-* CSS to style the website.
-* [Gitpod](https://gitpod.io/workspaces) IDE to develop the website.
-* [Github](https://github.com/Swewi) To host the source code and GitHub Pages to deploy and host the live site.
-* Git to provide version control (to commit and push code to the repository).
-* [FontAwesome](https://fontawesome.com/) Version: 6.5.1 Icons.
-* [Goggle Fonts](https://fonts.google.com/) For website fonts.
-* [Google Dev Tools](https://developer.chrome.com/docs/devtools/) For page inspection and checking website.
-* [CloudConvert](https://cloudconvert.com/avif-to-webp) For image conversion.
-* [TinyJPG](https://tinyjpg.com/) For image compression.
-* [Favicon](https://favicon.io/) To create favicon for the website.
-* [iColorpalette](https://icolorpalette.com/#google_vignette) To create the colour palette for the project.
-* [Am I Responsive](https://ui.dev/amiresponsive) To create mockup image for README.
-* Google Chrome's [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) to check accessibility.
-* [NVDA screen reader](https://www.nvaccess.org/) to access screen reader capabilities on website.
-* [Colorfilter](https://www.toptal.com/designers/colorfilter/) to check website for colour-blind accessibility.
-* [ChatGPT](https://chat.openai.com/) used for spell checking, grammar, and readability.
-* [W3C HTML Markup Validator](https://validator.w3.org/) to check HTML code.
-* [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) to check CSS code.
-* Code Institute's Gitpod Template to generate the workspace for the project.
 
-# Testing
+- HTML to accomplish the structure of the website.
+- CSS to style the website.
+- [Gitpod](https://gitpod.io/workspaces) IDE to develop the website.
+- [Github](https://github.com/Swewi) To host the source code and GitHub Pages to deploy and host the live site.
+- Git to provide version control (to commit and push code to the repository).
+- [FontAwesome](https://fontawesome.com/) Version: 6.5.1 Icons.
+- [Goggle Fonts](https://fonts.google.com/) For website fonts.
+- [Google Dev Tools](https://developer.chrome.com/docs/devtools/) For page inspection and checking website.
+- [CloudConvert](https://cloudconvert.com/avif-to-webp) For image conversion.
+- [TinyJPG](https://tinyjpg.com/) For image compression.
+- [Favicon](https://favicon.io/) To create favicon for the website.
+- [iColorpalette](https://icolorpalette.com/#google_vignette) To create the colour palette for the project.
+- [Am I Responsive](https://ui.dev/amiresponsive) To create mockup image for README.
+- Google Chrome's [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) to check accessibility.
+- [NVDA screen reader](https://www.nvaccess.org/) to access screen reader capabilities on website.
+- [Colorfilter](https://www.toptal.com/designers/colorfilter/) to check website for colour-blind accessibility.
+- [ChatGPT](https://chat.openai.com/) used for spell checking, grammar, and readability.
+- [W3C HTML Markup Validator](https://validator.w3.org/) to check HTML code.
+- [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) to check CSS code.
+- Code Institute's Gitpod Template to generate the workspace for the project.
+
+## Testing
 
 ### Bugs
 
-* Broken Image after deployment - reformatted the image to jpg.
-    - This fixed the problem.
-* A page was included that was not complete - removed it, added to future features section.
-* Position of Google Translate after deployment - Played with settings in CSS.
-    - fixed the problem.
-* HTML failed validation - changed from 'ID' to 'class'.
-    - fixed the problem, rechecked several times to make sure.
+- Broken Image after deployment - reformatted the image to jpg.
+  - This fixed the problem.
+- A page was included that was not complete - removed it, added to future features section.
+- Position of Google Translate after deployment - Played with settings in CSS.
+  - fixed the problem.
+- HTML failed validation - changed from 'ID' to 'class'.
+  - fixed the problem, rechecked several times to make sure.
 
-### Accessibility
+### Accessibility Requirements
 
 I have run tests checking accessibility of the site using:
 ***
-* Screen reader - NVDA, this a standalone tool.
-    - the screen reader could passably read the site and alt/aria tags, the pronunciation of the Maori words is interesting.
-* Colour blind check
-    - the site looked useable, and it was readable.
-    - Test results:
-        - [Red/Green - red cone based](https://www.toptal.com/designers/colorfilter?orig_uri=https://swewi.github.io/NZ-Wars-A-brief-overview/index.html&process_type=protan)
-        - [Red/Green - green cone based](https://www.toptal.com/designers/colorfilter?orig_uri=https://swewi.github.io/NZ-Wars-A-brief-overview/index.html&process_type=deutan)
-        - [Blue/Yellow - blue cone based](https://www.toptal.com/designers/colorfilter?orig_uri=https://swewi.github.io/NZ-Wars-A-brief-overview/index.html&process_type=tritan)
-        - [Greyscale](https://www.toptal.com/designers/colorfilter?orig_uri=https://swewi.github.io/NZ-Wars-A-brief-overview/index.html&process_type=grey)
 
-* Vision Imparied
-    - the use of alt-tags and aria-labels throughout the document to maximise usage by vision impaired users.
+- Screen reader - NVDA, this a standalone tool.
+  - the screen reader could passably read the site and alt/aria tags, the pronunciation of the Maori words is interesting.
+- Colour blind check
+  - the site looked useable, and it was readable.
+  - Test results:
+    - [Red/Green - red cone based](https://www.toptal.com/designers/colorfilter?orig_uri=https://swewi.github.io/NZ-Wars-A-brief-overview/index.html&process_type=protan)
+    - [Red/Green - green cone based](https://www.toptal.com/designers/colorfilter?orig_uri=https://swewi.github.io/NZ-Wars-A-brief-overview/index.html&process_type=deutan)
+    - [Blue/Yellow - blue cone based](https://www.toptal.com/designers/colorfilter?orig_uri=https://swewi.github.io/NZ-Wars-A-brief-overview/index.html&process_type=tritan)
+    - [Greyscale](https://www.toptal.com/designers/colorfilter?orig_uri=https://swewi.github.io/NZ-Wars-A-brief-overview/index.html&process_type=grey)
+
+- Vision Imparied
+  - the use of alt-tags and aria-labels throughout the document to maximise usage by vision impaired users.
 
 ### Code
 
@@ -183,28 +189,29 @@ I have checked the code wsing W3C CSS validator - No errors occured.
 
 I have tried to ensure regular commits occured and that things have been commented correctly.
 
-##### Browsers
+#### Browsers
 
 I have tested the website on four different browsers:
-* Google Chrome
-    - I have opened every page from every other page, all the links worked.
-    - I have used dev-tools to test image links and alt tags, all showed correctly.
-    - I have tested all the links on the external links page, making sure they conected correctly, all links worked correctly.
 
-* Opera GX
-    - I have opened every page from every other page, all the links worked.
-    - I have used dev-tools to test image links and alt tags, all showed correctly.
-    - I have tested all the links on the external links page, making sure they conected correectly, all links worked correctly.
+- Google Chrome
+  - I have opened every page from every other page, all the links worked.
+  - I have used dev-tools to test image links and alt tags, all showed correctly.
+  - I have tested all the links on the external links page, making sure they conected correctly, all links worked correctly.
 
-* Firefox
-    - I have opened every page from every other page, all the links worked.
-    - I have used dev-tools to test image links and alt tags, all showed correctly.
-    - I have tested all the links on the external links page, making sure they conected correectly, all links worked correctly.
+- Opera GX
+  - I have opened every page from every other page, all the links worked.
+  - I have used dev-tools to test image links and alt tags, all showed correctly.
+  - I have tested all the links on the external links page, making sure they conected correectly, all links worked correctly.
 
-* Edge
-    - I have opened every page from every other page, all the links worked.
-    - I have used dev-tools to test image links and alt tags, all showed correctly.
-    - I have tested all the links on the external links page, making sure they conected correectly, all links worked correctly.
+- Firefox
+  - I have opened every page from every other page, all the links worked.
+  - I have used dev-tools to test image links and alt tags, all showed correctly.
+  - I have tested all the links on the external links page, making sure they conected correectly, all links worked correctly.
+
+- Edge
+  - I have opened every page from every other page, all the links worked.
+  - I have used dev-tools to test image links and alt tags, all showed correctly.
+  - I have tested all the links on the external links page, making sure they conected correectly, all links worked correctly.
 
 #### Lighthouse output
 
@@ -213,64 +220,70 @@ I have tested the website on four different browsers:
 
 Outcome of testing I included the 'google translate' from W3 Schools.
 
-# Deployment
-## Cloning the Repository
+## Deployment
 
-* On Github navigate to the repository `NZ-Wars-A-brief-overview`
-* Click `Code` drop down menu - a green button shown right above the file list.
-* `Copy` the URL of the repository using "HTTPS", "SSH" or "Github CLI".
-* Open Git Bash.
-* Change the current working directory to the location where you want the cloned directory.
-* `Type "git clone"`, and then paste the URL copied earlier.
-* Press `enter` to create local clone. A clone of the repository will now be created.
+### Cloning the Repository
 
-* For more details on how to clone the repository in order to create a copy for own use refer to the site:
+- On Github navigate to the repository `NZ-Wars-A-brief-overview`
+- Click `Code` drop down menu - a green button shown right above the file list.
+- `Copy` the URL of the repository using "HTTPS", "SSH" or "Github CLI".
+- Open Git Bash.
+- Change the current working directory to the location where you want the cloned directory.
+- `Type "git clone"`, and then paste the URL copied earlier.
+- Press `enter` to create local clone. A clone of the repository will now be created.
+
+- For more details on how to clone the repository in order to create a copy for own use refer to the site:
 [Cloning a Repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 
 ## Forking a Repository
 
-* On Github navigate to the repository `NZ-Wars-A-brief-overview`
-* Click `Fork` located towards top right corner on the GitHub page.
-* Select "owner" for the forked repository from the dropdown menu under `owner`.
-* It will create forked repo under the same name as original by default. But you can type a name in `Repository name` or add a description in `Description box`.
-* Click on `Create fork`. A forked repo is created.
+- On Github navigate to the repository `NZ-Wars-A-brief-overview`
+- Click `Fork` located towards top right corner on the GitHub page.
+- Select "owner" for the forked repository from the dropdown menu under `owner`.
+- It will create forked repo under the same name as original by default. But you can type a name in `Repository name` or add a description in `Description box`.
+- Click on `Create fork`. A forked repo is created.
 
-###### Important Information about forking a repository
-* Forking allows you to make any changes without affecting original project. You can send the the suggestions by submitting a pull request. Then the Project Owner can review the pull request before accepting the suggestions and merging them.
-* When you have fork to a repository, you don't have access to files locally on your device, for getting access you will need to clone the forked repository.
-* For more details on how to fork the repo, in order to for example suggest any changes to the project you can:
+### Important Information about forking a repository
+
+- Forking allows you to make any changes without affecting original project. You can send the the suggestions by submitting a pull request. Then the Project Owner can review the pull request before accepting the suggestions and merging them.
+- When you have fork to a repository, you don't have access to files locally on your device, for getting access you will need to clone the forked repository.
+- For more details on how to fork the repo, in order to for example suggest any changes to the project you can:
 [Forking a Repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 
 ## Deploying
 
 This project was deployed to GitHub pages. The steps to deploy are as follows:
 
-* Log into GitHub.
-* Select `NZ-Wars-A-brief-overview` from the list of repositories.
-* Select `Settings` From the Repositories sub-headings.
-* In the left side menu select `Pages` from `Code and automation` section.
-* Under the `Source` heading in the dropdown menu select `main`.
-* A second drop-down menu should remain with the default value `/(root)`.
-* Press `Save`.
-* A message that the website is ready to be deployed will appear, refresh the page and the link to the deployed site will be available in a green sub-section on the top of the page.
-* Click on the link to go to the live deployed page.
+- Log into GitHub.
+- Select `NZ-Wars-A-brief-overview` from the list of repositories.
+- Select `Settings` From the Repositories sub-headings.
+- In the left side menu select `Pages` from `Code and automation` section.
+- Under the `Source` heading in the dropdown menu select `main`.
+- A second drop-down menu should remain with the default value `/(root)`.
+- Press `Save`.
+- A message that the website is ready to be deployed will appear, refresh the page and the link to the deployed site will be available in a green sub-section on the top of the page.
+- Click on the link to go to the live deployed page.
 
 [Link to live website](https://swewi.github.io/NZ-Wars-A-brief-overview/index.html)
 
-# Credits
+## Credits
 
 ### Media
+
 ***
-* [Ruapekapeka Pa Gate](https://walkinnz.home.blog/) sourced from the history hits website.
-* My own photos.
-* [National library of NZ - Various images](https://natlib.govt.nz/schools/topics/5d24041bfb002c625d9dc3f2) Historic images.
-* [Almy - Various images](https://www.alamy.com/stock-photo/new-zealand-wars.html?sortBy=relevant) Historic images.
-* [Getty Images - Various images](https://www.gettyimages.com.au/photos/maori-war) Historic images.
-* [NZ wars documentary](https://www.youtube.com/watch?v=oP-rFLSwMPk&list=PLjXjdTq37-vSip6Wv3kbMBvrIT9Xr2KFq) Prof. James Belich New Zealand Wars, I have got permission from Prof. Belich to use this media.
+
+- [Ruapekapeka Pa Gate](https://walkinnz.home.blog/) sourced from the history hits website.
+- My own photos.
+- [National library of NZ - Various images](https://natlib.govt.nz/schools/topics/5d24041bfb002c625d9dc3f2) Historic images.
+- [Almy - Various images](https://www.alamy.com/stock-photo/new-zealand-wars.html?sortBy=relevant) Historic images.
+- [Getty Images - Various images](https://www.gettyimages.com.au/photos/maori-war) Historic images.
+- [NZ wars documentary](https://www.youtube.com/watch?v=oP-rFLSwMPk&list=PLjXjdTq37-vSip6Wv3kbMBvrIT9Xr2KFq) Prof. James Belich New Zealand Wars, I have got permission from Prof. Belich to use this media.
 
 ### Code
-* W3 schools - for the google translate code.  I also used this website for help with getting syntax right.
-* I referenced The Code Institute Walkthrough project - Love Running, and the Coffee Coders project as references for parts of code, as well as flicking through the HTML and CSS sections to get the correct syntax.
+
+- W3 schools - for the google translate code.  I also used this website for help with getting syntax right.
+
+- I referenced The Code Institute Walkthrough project - Love Running, and the Coffee Coders project as references for parts of code, as well as flicking through the HTML and CSS sections to get the correct syntax.
 
 ## Acknowledgements
 
