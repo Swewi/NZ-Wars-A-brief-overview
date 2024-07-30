@@ -394,9 +394,7 @@ hr {
 }
 
 /*consequences page*/
-
 .consequences {
-    flex: 1;
     width: 90%;
     margin: 20px auto;
     display: flex;
@@ -404,15 +402,16 @@ hr {
     align-items: center;
 }
 
-.consequences h3 {
-    font-size: 100%;
-    text-align: center;
-}
-
+/* Headers */
 .consequences h2 {
     font-size: 150%;
     text-align: center;
     padding-top: 1rem;
+}
+
+.consequences h3 {
+    font-size: 100%;
+    text-align: center;
 }
 
 .consequences h4 {
@@ -420,24 +419,39 @@ hr {
     text-align: start;
 }
 
+/* Paragraphs */
 .consequences p {
     padding: 0 20px;
     text-align: left;
 }
 
+/* Horizontal rule */
 hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 }
 
+/* Consequences section styling */
 .consequences-section {
+    width: 100%;
     max-width: 55%;
     padding: 10px 15px;
     border-radius: 8px;
     border: 2px solid #000000;
     margin: 10px 0;
     color: #242121;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Alternating alignment for sections */
+.consequences-section:nth-child(odd) {
     align-self: flex-start;
+}
+
+.consequences-section:nth-child(even) {
+    align-self: flex-end;
 }
 
 #spec-gap {
