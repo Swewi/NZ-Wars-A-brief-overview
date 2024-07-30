@@ -395,7 +395,89 @@ hr {
 
 /*consequences page*/
 
+.consequences {
+    flex: 1;
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.consequences h3 {
+    font-size: 100%;
+    text-align: center;
+}
+
+.consequences h2 {
+    font-size: 150%;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.consequences h4 {
+    font-size: 75%;
+    text-align: start;
+}
+
+.consequences p {
+    padding: 0 20px;
+    text-align: left;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+.consequences-section {
+    max-width: 55%;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 2px solid #000000;
+    margin: 10px 0;
+    color: #242121;
+    align-self: flex-start;
+}
+
+#spec-gap {
+    font-size: xx-small;
+    padding-top: 1rem;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 80%;
+}
+
+td, th {
+    border: 1px solid #6c4c74;
+    text-align: left;
+    padding: 0.5rem;
+    font-size: medium;
+}
+
+/* Remove right border from last column */
+td:last-child, th:last-child {
+    border-right: none;
+}
+
+/* Remove bottom border from last row */
+tbody tr:last-child td {
+    border-left: none;
+    border-bottom: none;
+}
+
+/* Remove all borders from the 4th column and notes */
+td:nth-child(4), th:nth-child(4), td.note {
+    border: none !important;
+}
+
+.note {
+    font-style: italic;
+    color: #4b4533;
+}
 
 /*external links page*/
 .external-links h2 {
