@@ -135,7 +135,7 @@ nav {
 /*Making google translate button look better*/
 #google_translate_element {
     background-color: #bab49e;
-    padding: 0.5rem 0.5rem 0.5rem 5rem;
+    padding: 0.5rem 8rem 0.5rem 0.5rem;
     flex: 1 0 100%;
     order: 2;
     text-align: right;
@@ -144,7 +144,7 @@ nav {
 main {
     background-color: #bab49e;
     flex: 1;
-    padding-top: 140px;
+    padding-top: 120px;
     display: flex;
     flex-direction: column;
 }
@@ -340,7 +340,8 @@ hr {
 .campaigns h2 {
     font-size: 150%;
     text-align: center;
-    padding-top: 1rem;
+    padding: 1rem 3rem;
+    margin-bottom: 20px;
 }
 
 .campaigns h3 {
@@ -636,6 +637,7 @@ footer {
 }
 
 .copywrite {
+    text-transform: capitalize;
     color: #4b4533;
 }
 
@@ -664,7 +666,8 @@ footer {
 
     /*Header*/
     header {
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     nav {
@@ -676,6 +679,7 @@ footer {
         box-shadow: none;
         width: fit-content;
         padding-right: 2rem;
+        padding: 0;
     }
 
     .nav-controls {
@@ -694,6 +698,10 @@ footer {
     body {
         font-size: 16px;
     }
+    
+    main {
+        padding-top: 140px;
+    }
 
     #logo {
         font-size: 250%;
@@ -705,12 +713,12 @@ footer {
 
     /*Making google translate button look better*/
     #google_translate_element {
-        position: relative;
-        display: flex;
-        justify-content: flex-end;
         flex: 0 1 auto;
         order: 3;
-        padding: 0;
+        padding-right: 1rem;
+        padding-top: 0.5rem;
+        margin-left: 32rem;
+        align-self: flex-end;
     }
 
     /*Hero*/
@@ -720,7 +728,7 @@ footer {
     }
 
     #hero {
-        margin-top: 0;
+        margin-top: 2rem;
     }
 
     /*Landing page extra information*/
@@ -803,14 +811,13 @@ footer {
         font-size: 18px;
     }
 
+    main {
+        padding-top: 0;
+    }
+
     /*Making google translate button look better*/
     #google_translate_element {
-        margin-top: 5rem;
-        padding-top: 2rem;
-        position: relative;
-        /* Enable flex properties to align contents*/
-        display: flex;
-        justify-content: flex-end;
+        margin-left: 0 !important;
     }
 
     /*Hero*/
@@ -846,6 +853,10 @@ footer {
         font-size: 20px;
     }
 
+    main {
+        padding-top: 113px;
+    }
+
     /*Making google translate button look better*/
     #google_translate_element {
         padding-top: 1rem;
@@ -859,6 +870,10 @@ footer {
     #cover-text {
         width: 300px;
         left: 55rem;
+    }
+
+    #hero {
+        margin-top: 1rem;
     }
 
     .responsive-image {
@@ -916,4 +931,19 @@ footer {
         left: 70rem;
     }
 
+    main {
+        padding-top: 66px;
+    }
+
+}
+
+/* Device-specific query for iPads in portrait mode */
+@media screen and (min-width: 769px) and (max-width: 1024px) and (orientation: portrait) {
+    #google_translate_element {
+        margin-left: 0 !important;
+    }
+
+    main {
+        padding-top: 105px;
+    }
 }
