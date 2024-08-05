@@ -654,8 +654,8 @@ footer {
     }
 
     #pop-decline .p-style {
-        font-size: 1em; /* Adjust as needed */
-        line-height: 1.5; /* Adjust as needed */
+        font-size: 1em;
+        line-height: 1.5;
     }
 }
 
@@ -719,6 +719,10 @@ footer {
         left: 23rem;
     }
 
+    #hero {
+        margin-top: 0;
+    }
+
     /*Landing page extra information*/
     .statement-box {
         font-size: large;
@@ -732,7 +736,6 @@ footer {
     .responsive-image {
         max-width: 50%;
     }
-
 
     #beach {
         padding-left: 4rem;
@@ -855,7 +858,7 @@ footer {
     /*Hero*/
     #cover-text {
         width: 300px;
-        left: 72rem;
+        left: 55rem;
     }
 
     .responsive-image {
@@ -901,6 +904,16 @@ footer {
         font-style: italic;
         color: #4b4533;
         white-space: nowrap;
+    }
+
+}
+
+/*Media query for screens larger than 1450px*/
+@media screen and (min-width: 1450px) {
+     /*Hero*/
+     #cover-text {
+        width: 300px;
+        left: 70rem;
     }
 
 }
