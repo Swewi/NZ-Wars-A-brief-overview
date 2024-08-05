@@ -223,8 +223,10 @@ main {
 }
 
 .cause-section h3 {
+    width: 100%;
     font-size: 100%;
     text-align: center;
+    padding: 1rem;
 }
 
 .cause-section {
@@ -235,16 +237,12 @@ main {
 }
 
 .cause-content-wrapper {
-    width: 45%;
+    width: 49%;
     margin: 10px 0;
 }
 
 .cause-content-wrapper:nth-child(odd) {
     align-self: flex-start;
-}
-
-.cause-content-wrapper:nth-child(even) {
-    align-self: flex-end;
 }
 
 .causes-main,
