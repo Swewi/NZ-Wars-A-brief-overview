@@ -392,64 +392,79 @@ hr {
 }
 
 /*consequences page*/
+
+
 .consequences {
     width: 90%;
     margin: 20px auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
-/* Headers */
 .consequences h2 {
     font-size: 150%;
     text-align: center;
-    padding-top: 1rem;
+    margin-bottom: 20px;
+    padding: 1rem 3rem;
 }
 
-.consequences h3 {
+.consequences-section h3 {
+    width: 100%;
     font-size: 100%;
     text-align: center;
+    padding: 1rem;
 }
 
-.consequences h4 {
-    font-size: 75%;
-    text-align: start;
+.consequences-section h4 {
+    margin-bottom: -0.5rem;
 }
 
-/* Paragraphs */
-.consequences p {
-    padding: 0 20px;
-    text-align: left;
+#imate-h5 {
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #4b4533;
+    font-size: small;
+}
+
+.consequences-section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.consequences-content-wrapper {
+    width: 49%;
+    margin: 10px 0;
+}
+
+.consequences-content-wrapper:nth-child(odd) {
+    align-self: flex-start;
+}
+
+.consequences-main,
+.consequences-supplemental {
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 2px solid #000000;
+    color: #242121;
+    margin-bottom: 10px;
+}
+
+.indented-text {
+    margin-left: 1.5rem;
+    padding: 1rem;
+}
+
+.p-style {
+    margin-top: 0.8rem;
 }
 
 /* Horizontal rule */
 hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
-}
-
-/* Consequences section styling */
-.consequences-section {
-    width: 100%;
-    max-width: 55%;
-    padding: 10px 15px;
-    border-radius: 8px;
-    border: 2px solid #000000;
-    margin: 10px 0;
-    color: #242121;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-}
-
-/* Alternating alignment for sections */
-.consequences-section:nth-child(odd) {
-    align-self: flex-start;
-}
-
-.consequences-section:nth-child(even) {
-    align-self: flex-end;
 }
 
 #spec-gap {
@@ -460,7 +475,7 @@ hr {
 table {
     border-collapse: separate;
     border-spacing: 0;
-    width: 80%;
+    width: 95%;
 }
 
 td, th {
@@ -479,6 +494,7 @@ td:last-child, th:last-child {
 tbody tr:last-child td {
     border-left: none;
     border-bottom: none;
+    border-top: none;
 }
 
 /* Remove all borders from the 4th column and notes */
@@ -489,6 +505,7 @@ td:nth-child(4), th:nth-child(4), td.note {
 .note {
     font-style: italic;
     color: #4b4533;
+    white-space: nowrap;
 }
 
 /*external links page*/
