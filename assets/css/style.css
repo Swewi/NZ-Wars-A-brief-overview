@@ -31,6 +31,26 @@ h4 {
     color: #4b4533;
 }
 
+h2 {
+    width: 90%;
+    border-bottom: 10px solid transparent;
+    margin-left: auto;
+    margin-right: auto !important;
+    position: relative;
+    z-index: 1;
+}
+
+h2::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    bottom: -20px;
+    left: 0;
+    background: linear-gradient(to right, #913831, #C37125, #FFF056, #4F7942, #8fc0e1, #aaa9ad, #000);
+    z-index: -1;
+}
+
 header {
     display: flex;
     flex-wrap: wrap;
@@ -160,6 +180,15 @@ main {
 #cover-text>h3 {
     color: #bab49e;
     text-transform: capitalize;
+    border: none;
+}
+
+#cover-text>h2::before {
+    background: transparent;
+}
+
+#cover-text>h3 {
+    padding-top: 0.5rem;
 }
 
 /*Landing page extra information*/
@@ -392,8 +421,6 @@ hr {
 }
 
 /*consequences page*/
-
-
 .consequences {
     width: 90%;
     margin: 20px auto;
@@ -417,6 +444,7 @@ hr {
 
 .consequences-section h4 {
     margin-bottom: -0.5rem;
+    font-size: small;
 }
 
 #imate-h5 {
@@ -453,8 +481,8 @@ hr {
 }
 
 .indented-text {
-    margin-left: 1.5rem;
-    padding: 1rem;
+    margin-left: 0.5rem;
+    padding: 0.4rem;
 }
 
 .p-style {
@@ -467,48 +495,15 @@ hr {
     margin: 5px 0;
 }
 
-#spec-gap {
-    font-size: xx-small;
-    padding-top: 1rem;
-}
-
-table {
-    border-collapse: separate;
-    border-spacing: 0;
-    width: 95%;
-}
-
-td, th {
-    border: 1px solid #6c4c74;
-    text-align: left;
-    padding: 0.5rem;
-    font-size: medium;
-}
-
-/* Remove right border from last column */
-td:last-child, th:last-child {
-    border-right: none;
-}
-
-/* Remove bottom border from last row */
-tbody tr:last-child td {
-    border-left: none;
-    border-bottom: none;
-    border-top: none;
-}
-
-/* Remove all borders from the 4th column and notes */
-td:nth-child(4), th:nth-child(4), td.note {
-    border: none !important;
-}
-
-.note {
-    font-style: italic;
-    color: #4b4533;
-    white-space: nowrap;
-}
-
 /*external links page*/
+
+.external-links {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
 .external-links h2 {
     text-transform: capitalize;
     font-size: 150%;
@@ -644,8 +639,28 @@ footer {
     color: #4b4533;
 }
 
-/*Media query tablets and larger (768px and up)*/
-@media screen and (min-width: 768px) {
+/* Hide the table on screens smaller than 739px */
+@media screen and (max-width: 739px) {
+    #pop-decline .consequences-supplemental {
+        display: none;
+    }
+
+    #pop-decline .consequences-content-wrapper {
+        width: 100%;
+    }
+
+    #pop-decline .consequences-main {
+        width: 100%;
+    }
+
+    #pop-decline .p-style {
+        font-size: 1em; /* Adjust as needed */
+        line-height: 1.5; /* Adjust as needed */
+    }
+}
+
+/*Media query tablets and larger (740px and up)*/
+@media screen and (min-width: 740px) {
 
     /*Header*/
     header {
@@ -722,6 +737,56 @@ footer {
     #beach {
         padding-left: 4rem;
     }
+
+    #spec-gap {
+        font-size: xx-small;
+        padding-top: 1rem;
+    }
+
+    table {
+        border-collapse: separate;
+        border-spacing: 0;
+        width: 95%;
+    }
+    
+    td, th {
+        border: 1px solid #6c4c74;
+        text-align: left;
+        padding: 0.5rem;
+        font-size: medium;
+    }
+
+    .indented-text {
+        margin-left: 1.5rem;
+        padding: 1rem;
+    }
+
+    .consequences-section h4 {
+        font-size: medium;
+    }
+    
+    /* Remove right border from last column */
+    td:last-child, th:last-child {
+        border-right: none;
+    }
+    
+    /* Remove bottom border from last row */
+    tbody tr:last-child td {
+        border-left: none;
+        border-bottom: none;
+        border-top: none;
+    }
+    
+    /* Remove all borders from the 4th column and notes */
+    td:nth-child(4), th:nth-child(4), td.note {
+        border: none !important;
+    }
+    
+    .note {
+        font-style: italic;
+        color: #4b4533;
+    }
+
 }
 
 /*Media query laptops and desktops (992px and up)*/
@@ -768,7 +833,6 @@ footer {
     #beach {
         padding-left: 5rem;
     }
-
 }
 
 /*Media query for screens larger than 1200px*/
@@ -797,4 +861,46 @@ footer {
     .responsive-image {
         max-width: 60%;
     }
+
+    #spec-gap {
+        font-size: xx-small;
+        padding-top: 1rem;
+    }    
+
+    table {
+        border-collapse: separate;
+        border-spacing: 0;
+        width: 95%;
+    }
+    
+    td, th {
+        border: 1px solid #6c4c74;
+        text-align: left;
+        padding: 0.5rem;
+        font-size: medium;
+    }
+    
+    /* Remove right border from last column */
+    td:last-child, th:last-child {
+        border-right: none;
+    }
+    
+    /* Remove bottom border from last row */
+    tbody tr:last-child td {
+        border-left: none;
+        border-bottom: none;
+        border-top: none;
+    }
+    
+    /* Remove all borders from the 4th column and notes */
+    td:nth-child(4), th:nth-child(4), td.note {
+        border: none !important;
+    }
+    
+    .note {
+        font-style: italic;
+        color: #4b4533;
+        white-space: nowrap;
+    }
+
 }
