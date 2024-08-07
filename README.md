@@ -6,6 +6,8 @@
 
 This is Portfolio Project 1 for Full Stack Developer Diploma taught through Code Insititute.
 
+- **I am not rewriting the README because this version shows the site as it was before I began making changes to *'finish'* the site to the level I feel better represents my initial vision of the project.**
+
 ## Purpose
 
 The idea behind this website is to introduce people to the New Zealand Wars, this is part of history that was barely taught when I was at school.
@@ -25,7 +27,6 @@ I have attempted to make this website as accesable as possible and as adaptable 
 ### Home Page
 
 ![Collage of home screen images](assets/images/readme/home-page.png)
-<br>
 
 The home page is designed to attract attention, I have used a large 'Hero Image' and colour that not only compliment the image but have a relaxing feel.  The Hero Image selected is relavent to the content, as well as possibly drawing people to the site.
 
@@ -91,17 +92,14 @@ To highlight the sections within the 'External links and resources Page' I used 
 I have made the navigation bar as responsive as possible, it is fully interactable at all sizes, in the smallest form the menu operates from a classic 'burger' icon:
 
 ![Screenshot of colapsed menu](assets/images/readme/phone-fold-menu.png)
-<br>
 
 It opens up to look like this:
 
 ![Screenshot of open menu](assets/images/readme/phone-open-menu.png)
-<br>
 
 For screens 768px and larger the menu expands fully into a traditonal 'tab' style:
 
 ![Screenshot of larger menu](assets/images/readme/website-menu.png)
-<br>
 
 Each menu page connects with every other page.
 
@@ -216,7 +214,6 @@ I have tested the website on four different browsers:
 #### Lighthouse output
 
 ![desktop output from lighthouse](/assets/images/readme/lighthouseoutput.png)
-<br>
 
 Outcome of testing I included the 'google translate' from W3 Schools.
 
@@ -279,7 +276,7 @@ This project was deployed to GitHub pages. The steps to deploy are as follows:
 - [Getty Images - Various images](https://www.gettyimages.com.au/photos/maori-war) Historic images.
 - [NZ wars documentary](https://www.youtube.com/watch?v=oP-rFLSwMPk&list=PLjXjdTq37-vSip6Wv3kbMBvrIT9Xr2KFq) Prof. James Belich New Zealand Wars, I have got permission from Prof. Belich to use this media.
 
-### Code
+### Code Sources
 
 - W3 schools - for the google translate code.  I also used this website for help with getting syntax right.
 
